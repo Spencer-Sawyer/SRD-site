@@ -1,0 +1,1375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <link rel="canonical" href="https://defined.eedq.org/abilities/">
+    <link rel="shortcut icon" href="../img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>Abilities - SRD</title>
+    <link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet">
+    <link href="../css/font-awesome-4.7.0.css" rel="stylesheet">
+    <link href="../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/highlight.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/bootstrap-3.3.7.min.js"></script>
+    <script src="../js/highlight.pack.js"></script>
+    
+    <base target="_top">
+    <script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Terms", url: "#_top", children: [
+              {title: "Ally Shielding (Ex)", url: "#ally-shielding-ex" },
+              {title: "Animal Companion", url: "#animal-companion" },
+              {title: "Arcane Blast (Ex) [Magic]", url: "#arcane-blast-ex-magic" },
+              {title: "Aura, Lesser (Ex)", url: "#aura-lesser-ex" },
+              {title: "Aura, Improved (Ex)", url: "#aura-improved-ex" },
+              {title: "Aura, Greater (Ex)", url: "#aura-greater-ex" },
+              {title: "Breath Weapon (Ex)", url: "#breath-weapon-ex" },
+              {title: "Breath Weapon, Improved (Ex)", url: "#breath-weapon-improved-ex" },
+              {title: "Breath Weapon, Greater (Ex)", url: "#breath-weapon-greater-ex" },
+              {title: "Briar Patch (Su)", url: "#briar-patch-su" },
+              {title: "Control Undead (Su)", url: "#control-undead-su" },
+              {title: "Crusher Strike (Ex)", url: "#crusher-strike-ex" },
+              {title: "Dancing Stars (Su) [Magic]", url: "#dancing-stars-su-magic" },
+              {title: "Dragon's Pressure (Su)", url: "#dragons-pressure-su" },
+          ]},
+        ];
+
+    </script>
+    <script src="../js/base.js"></script> 
+</head>
+
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+
+
+
+<div class="container-fluid wm-page-content">
+  <a name="_top"></a>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../Afflictions/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../Afflictions/" class="btn btn-xs btn-link">
+        Aflictions
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../progression/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../progression/" class="btn btn-xs btn-link">
+        Home
+      </a>
+    </div>
+    
+  </div>
+
+    
+
+    <!-----
+
+Yay, no errors, warnings, or alerts!
+
+Conversion time: 4.419 seconds.
+
+
+Using this Markdown file:
+
+1. Paste this output into your source file.
+2. See the notes and action items below regarding this conversion run.
+3. Check the rendered output (headings, lists, code blocks, tables) for proper
+   formatting and use a linkchecker before you publish this page.
+
+Conversion notes:
+
+* Docs to Markdown version 1.0β33
+* Mon Mar 07 2022 08:56:21 GMT-0800 (PST)
+* Source doc: Abilities
+* Tables are currently converted to HTML tables.
+----->
+
+<h1 id="terms">Terms</h1>
+<p><strong>Abilities</strong>: Abilities are generally supernatural(Su) or extraordinary(Ex) tools a character has. Oftentimes they bring something completely new to the table that isn't available as a spell or feat. Oftentimes they follow a theme with several iterations on the same ability.</p>
+<p><strong>Hit Die</strong> (HD): Your character's level after any level adjustments.</p>
+<p><strong>Difficulty Check</strong> (DC): Some abilities require a target make a save, and for that there will be a difficulty check. These come in two flavors. Mental based(Su) and Constitution based(Ex). They are calculated as follows 10 + 1/2 HD + primary mental modifier or 10 + 1/2 HD + constitution modifier. This will be determined in the ability itself</p>
+<p><strong>Dispel Magic</strong>: Any ability that is a supernatural ability(Su) can be subject to dispel magic if specified. If this is the case use your HD as your caster level.</p>
+<p><strong>Concentration</strong>: If an ability requires concentration treat it as a 5th level spell for purposes of calculating the concentration DC.</p>
+<p><strong>Spell Resistance</strong>: If an ability is subject to spell resistance your HD is your effective caster level. Note that spell penetration does not benefit abilities.</p>
+<p><strong>Iterative Growth</strong>: When a higher form of an ability is taken it replaces the previous ability. For example Improved Breath Weapon replaces Breath Weapon. </p>
+<p><strong>Prerequisites</strong>: There are prerequisites for these, the ability score requirements are a hard prerequisite. However, other prerequisites can be overridden with sufficient integration with the character's backstory.</p>
+<h3 id="ally-shielding-ex">Ally Shielding (Ex)</h3>
+<p><strong>Prerequisite</strong>: PMA 14<br />
+<strong>Use</strong>: 1 + 1 per 4 HD per day 
+<strong>Action</strong>: 1 standard action
+<strong>Target</strong>: 30 ft radius centered on the user<br />
+<strong>Duration</strong>: 1 round per HD</p>
+<p>A strong defense allows for a more hearty offense they say. Allies are warded equal to the user's HD x PMA Modifier. This bonus applies to the targets as a whole. So if the caster has 40 warding the warding damage is taken before any HP damage is taken. Damage taken by anyone inside the radius reduces the whole ward's HP.</p>
+<h3 id="animal-companion">Animal Companion</h3>
+<p><strong>Prerequisite</strong>: Character must not have a familiar or construct<br />
+<strong>Effect</strong>: Gain an animal companion, the creature's type must be animal. This creature will gain HD as you gain HD, as well as the bonuses listed below. An animal always has 3 or less intelligence. Roll stats for your companion like you would a character or use the pre-rolled 18, 16, 14, 14, 12, 3; as your stats. Like player races, some animals get bonuses to certain stats, see the specific animal entry for information.</p>
+<p><em>Devotion: If you are injured, crippled, or unconscious, your animal companion will either try to carry you away from danger, or defend your body by occupying your square against other attackers. While your animal companion is defending you, you cannot be finished off with an attack. Animals that can carry you away will prioritize that unless cornered.</em></p>
+<table>
+  <tr>
+   <td style="text-align:center">Character HD
+   </td>
+   <td style="text-align:center">Natural Armor Adj.
+   </td>
+   <td style="text-align:center">Str/Dex Adj.
+   </td>
+   <td style="text-align:center">Bonus Tricks
+   </td>
+   <td style="text-align:center">Special
+   </td>
+  </tr>
+  <tr>
+   <td style="text-align:center">1st - 2nd
+   </td>
+   <td style="text-align:center">+0
+   </td>
+   <td style="text-align:center">+1
+   </td>
+   <td style="text-align:center">0
+   </td>
+   <td style="text-align:center">Link, share spells
+   </td>
+  </tr>
+  <tr>
+   <td style="text-align:center">3rd - 4th
+   </td>
+   <td style="text-align:center">+2
+   </td>
+   <td style="text-align:center">+1
+   </td>
+   <td style="text-align:center">0
+   </td>
+   <td style="text-align:center">Evasion
+   </td>
+  </tr>
+  <tr>
+   <td style="text-align:center">5th - 6th
+   </td>
+   <td style="text-align:center">+3
+   </td>
+   <td style="text-align:center">+2
+   </td>
+   <td style="text-align:center">1
+   </td>
+   <td style="text-align:center">Devotion
+   </td>
+  </tr>
+  <tr>
+   <td style="text-align:center">7th - 8th
+   </td>
+   <td style="text-align:center">+4
+   </td>
+   <td style="text-align:center">+2
+   </td>
+   <td style="text-align:center">2
+   </td>
+   <td style="text-align:center">Improved Bull Rush
+   </td>
+  </tr>
+  <tr>
+   <td style="text-align:center">9th - 10th
+   </td>
+   <td style="text-align:center">+5
+   </td>
+   <td style="text-align:center">+3
+   </td>
+   <td style="text-align:center">3
+   </td>
+   <td style="text-align:center">-
+   </td>
+  </tr>
+  <tr>
+   <td style="text-align:center">11th - 12th
+   </td>
+   <td style="text-align:center">+6
+   </td>
+   <td style="text-align:center">+3
+   </td>
+   <td style="text-align:center">4
+   </td>
+   <td style="text-align:center">Improved Evasion
+   </td>
+  </tr>
+  <tr>
+   <td style="text-align:center">13th -14th
+   </td>
+   <td style="text-align:center">+7
+   </td>
+   <td style="text-align:center">+4
+   </td>
+   <td style="text-align:center">5
+   </td>
+   <td style="text-align:center">-
+   </td>
+  </tr>
+  <tr>
+   <td style="text-align:center">15th - 16th
+   </td>
+   <td style="text-align:center">+8
+   </td>
+   <td style="text-align:center">+4
+   </td>
+   <td style="text-align:center">6
+   </td>
+   <td style="text-align:center">Improved Overrun
+   </td>
+  </tr>
+  <tr>
+   <td style="text-align:center">17th - 18th
+   </td>
+   <td style="text-align:center">+9
+   </td>
+   <td style="text-align:center">+5
+   </td>
+   <td style="text-align:center">7
+   </td>
+   <td style="text-align:center">-
+   </td>
+  </tr>
+  <tr>
+   <td style="text-align:center">19th - 20th
+   </td>
+   <td style="text-align:center">+10
+   </td>
+   <td style="text-align:center">+5
+   </td>
+   <td style="text-align:center">7
+   </td>
+   <td style="text-align:center">-
+   </td>
+  </tr>
+</table>
+
+<p><em>Natural Armor Adjustment: This bonus is in addition to whatever base natural armor the creature has. So if it has a base of +2 then at level  20 the total natural armor of the creature will be +12. This stacks with Natural Armor Enhancement bonuses.</em></p>
+<h3 id="arcane-blast-ex-magic">Arcane Blast (Ex) [Magic]</h3>
+<p><strong>Prerequisite</strong>: PMA 16+<br />
+<strong>Use</strong>: 1 + 1 per 6 HD per day<br />
+<strong>Action</strong>: Full Round<br />
+<strong>Range</strong>: Long 400 ft + 40 ft per HD<br />
+<strong>Target</strong>: Single Target<br />
+<strong>Duration</strong>: Instant<br />
+<strong>Saving Throw</strong>: Fortitude half; Reflex half, see rules<br />
+<strong>DC</strong>: PMA Based<br />
+<strong>Spell Resistance</strong>: No  </p>
+<p>Your character accumulates a large amount of arcane energy and releases it in a powerful burst on a single target within range. This target must make a Fortitude Save  DC = 10 + 1/2 HD + PMA for half damage. Any targets within 10 ft of the primary target must make a reflex save of the same DC or take damage equal to half the base damage rolled against the primary target. As a note the caster can choose to not have it explode. This attack deals 1d10 force damage per caster level. A spell slot of 5th level or higher can be sacrificed to enable a secondary effect on the blast:</p>
+<p><strong>Stun</strong>: Stun's primary target for 1 round/spell slot level if fortitude save is failed</p>
+<p><strong>Knock Back</strong>: pushes target back 5 ft/spell slot level if fortitude save is failed  </p>
+<p><strong>Recover</strong>: Heal caster for 1d6/spell slot level  </p>
+<p><strong>Barrier</strong>: Ward caster for PMA x spell slot level  </p>
+<h3 id="aura-lesser-ex">Aura, Lesser (Ex)</h3>
+<p><strong>Prerequisite</strong>: Charisma 14<br />
+<strong>Use</strong>: 1 + Cha Mod per day <br />
+<strong>Action</strong>: 1 swift action<br />
+<strong>Effect</strong>: 20 ft radius centered on the user<br />
+<strong>Duration</strong>: 1 Hour per HD  </p>
+<p>When activated this ability grants bonuses to allies within the radius of the effect. Several bonuses can be selected and changed as a swift action at any time during the duration of the lesser aura.</p>
+<p><strong>Resistance</strong>: Gain 5 Resistance to any one of the following energy types; Fire, Ice, Electricity, Acid, Sonic or Force.</p>
+<p><strong>Fast Healing</strong>: All allies within the aura heal 1 HP per round, this will stabilize any dying allies.</p>
+<p><strong>Poise</strong>: Allies within the aura gain a +1 luck bonus to initiative and +2 luck bonus to Spot and Listen.</p>
+<p><strong>Damage Reduction</strong>: Allies gain 2/- Damage Reduction. Note this does not stack with any other form of damage reduction.</p>
+<p><strong>Saver</strong>: Gain a +1 luck bonus to any one of the following; Will, Fortitude, Reflex.</p>
+<h3 id="aura-improved-ex">Aura, Improved (Ex)</h3>
+<p><strong>Prerequisite</strong>: Charisma 16, HD 6+<br />
+<strong>Use</strong>: 1 + Cha Mod per day<br />
+<strong>Action</strong>: 1 swift action<br />
+<strong>Effect</strong>: 20 ft radius centered on the user<br />
+<strong>Duration</strong>: 1 Hour per HD  </p>
+<p>This functions as Lesser Aura but the bonuses have changed.</p>
+<p><strong>Resistance</strong>: Gain 10 Resistance to any one of the following energy types; Fire, Ice, Electricity, Acid, Sonic or Force.</p>
+<p><strong>Fast Healing</strong>: All allies within the aura heal 3 HP per round, this will stabilize any dying allies.</p>
+<p><strong>Poise</strong>: Allies within the aura gain a +2 luck bonus to initiative and +5 luck bonus to Spot and Listen.</p>
+<p><strong>Damage Reduction</strong>: Allies gain 5/- Damage Reduction. Note this does not stack with any other form of damage reduction.</p>
+<p><strong>Saver</strong>: Gain a +3 luck bonus to any one of the following; Will, Fortitude, Reflex.</p>
+<h3 id="aura-greater-ex">Aura, Greater (Ex)</h3>
+<p><strong>Prerequisite</strong>: Charisma 18, HD 12+<br />
+<strong>Use</strong>: 1 + Cha Mod per day<br />
+<strong>Action</strong>: 1 swift action 
+<strong>Effect</strong>: 30 ft radius centered on the user<br />
+<strong>Duration</strong>: 1 Hour/HD  </p>
+<p>This functions as Lesser Aura but the bonuses have changed.</p>
+<p><strong>Resistance</strong>: Gain 20 Resistance to any one of the following energy types; Fire, Ice, Electricity, Acid, Sonic or Force.</p>
+<p><strong>Fast Healing</strong>: All allies within the aura heal 5 HP per round, this will stabilize any dying allies.</p>
+<p><strong>Poise</strong>: Allies within the aura gain a +3 luck bonus to initiative and +8 luck bonus to Spot and Listen.</p>
+<p><strong>Damage Reduction</strong>: Allies gain 10/- Damage Reduction. Note this does not stack with any other form of damage reduction.</p>
+<p><strong>Saver</strong>: Gain a +5 luck bonus to any one of the following; Will, Fortitude, Reflex.</p>
+<h3 id="breath-weapon-ex">Breath Weapon (Ex)</h3>
+<p><strong>Prerequisite</strong>: Constitution 14, Draconic Bloodline<br />
+<strong>Use</strong>: 1 + Con mod per day; only every 1d4 rounds.<br />
+<strong>Action</strong>: 1 standard action
+<strong>Target</strong>: 30-ft Cone or 60-ft Line, chosen upon taking this ability.<br />
+<strong>Duration</strong>: Instant<br />
+<strong>Saving Throw</strong>: Reflex Half<br />
+<strong>DC</strong>: Constitution Based<br />
+<strong>Spell Resistance</strong>: No  </p>
+<p>Gain a breath weapon of your Draconic Bloodline energy type. This will deal 2d4 damage and will increase by 2d4 per 3 HD. </p>
+<p>Alternatively instead of dealing damage, a status breath weapon can be taken, such as sleep, nauseated, stunned, ect..., that will last for 1d6 rounds. Further iterations of this ability will not extend the duration, only the range. Note this may change the save effect to will or fortitude depending on the status effect. For example a sleep gas will be fortitude based, while a fear breath weapon will be will based.</p>
+<h3 id="breath-weapon-improved-ex">Breath Weapon, Improved (Ex)</h3>
+<p><strong>Prerequisite</strong>: Constitution 16, Draconic Bloodline, Breath Weapon<br />
+<strong>Use</strong>: 1 + Con mod per day; only every 1d4 rounds.<br />
+<strong>Action</strong>: 1 standard action<br />
+<strong>Target</strong>: 60-ft Cone or 120-ft Line, chosen upon taking this ability.<br />
+<strong>Duration</strong>: Instant<br />
+<strong>Saving Throw</strong>: Reflex Half<br />
+<strong>DC</strong>: Constitution Based<br />
+<strong>Spell Resistance</strong>: No  </p>
+<p>This works as Breath Weapon but the ranges have been increased and the damage dice is increased to d6</p>
+<h3 id="breath-weapon-greater-ex">Breath Weapon, Greater (Ex)</h3>
+<p><strong>Prerequisite</strong>: Constitution 18, Draconic Bloodline, must have Improved Breath Weapon<br />
+<strong>Use</strong>: 1 + Con mod per day; only every 1d4 rounds.<br />
+<strong>Action</strong>: Standard<br />
+<strong>Target</strong>: 90-ft Cone or 180-ft Line, chosen upon taking this ability.<br />
+<strong>Duration</strong>: Instant<br />
+<strong>Saving Throw</strong>: Reflex Half<br />
+<strong>DC</strong>: Constitution Based  </p>
+<p>This works as Breath Weapon but the ranges have been increased and the damage dice is increased to d10</p>
+<h3 id="briar-patch-su">Briar Patch (Su)</h3>
+<p><strong>Prerequisite</strong>: Cha 12<br />
+<strong>Use</strong>: 2 + Cha mod per day<br />
+<strong>Action</strong>: Standard<br />
+<strong>Target</strong>: 5 Square Feet / HD<br />
+<strong>Duration</strong>: 1 round/HD (D)<br />
+<strong>Saving Throw</strong>: None<br />
+<strong>Spell Resistance</strong>: No  </p>
+<p>Create an area of sharp plant thorns that deal, 1d6 + 1 damage per HD, when moving entering an affected square at full speed. When moving through these squares at half speed no damage is taken. A fire spell will destroy thorns in affected squares. Weapons that deal slashing damage can destroy a square of briars if a full round action is taken doing so.</p>
+<h3 id="control-undead-su">Control Undead (Su)</h3>
+<p><strong>Prerequisite</strong>: Must be able to cast divine spells, charisma of 12 or higher, must be evil or neutral.<br />
+<strong>Use</strong>: 3 + Cha modifier per day<br />
+<strong>Action</strong>: Standard<br />
+<strong>Target</strong>: 60-ft burst, effects closest Undead first<br />
+<strong>Duration</strong>: 1 minute<br />
+<strong>Saving Throw</strong>: None  </p>
+<p>Control undead forces the undead to your command, as if they were turned to your character's cause. A control attempt is performed by rolling a d20 + charisma modifier. Take the result and compare it to the table below to know the highest HD of undead that can be affected.</p>
+<table>
+  <tr>
+   <td style=text-align:Center><strong>Control Check Result</strong>
+   </td>
+   <td style=text-align:Center><strong>Most powerful Undead effected</strong>
+   </td>
+  </tr>
+  <tr>
+   <td style=text-align:Center>0
+   </td>
+   <td style=text-align:Center>Character HD -4
+   </td>
+  </tr>
+  <tr>
+   <td style=text-align:Center>1-3
+   </td>
+   <td style=text-align:Center>Character HD -3
+   </td>
+  </tr>
+  <tr>
+   <td style=text-align:Center>4-6
+   </td>
+   <td style=text-align:Center>Character HD -2
+   </td>
+  </tr>
+  <tr>
+   <td style=text-align:Center>7-9
+   </td>
+   <td style=text-align:Center>Character HD -1
+   </td>
+  </tr>
+  <tr>
+   <td style=text-align:Center>10-12
+   </td>
+   <td style=text-align:Center>Character HD
+   </td>
+  </tr>
+  <tr>
+   <td style=text-align:Center>13-15
+   </td>
+   <td style=text-align:Center>Character HD +1
+   </td>
+  </tr>
+  <tr>
+   <td style=text-align:Center>16-18
+   </td>
+   <td style=text-align:Center>Character HD +2
+   </td>
+  </tr>
+  <tr>
+   <td style=text-align:Center>19-21
+   </td>
+   <td style=text-align:Center>Character HD +3
+   </td>
+  </tr>
+  <tr>
+   <td style=text-align:Center>22+
+   </td>
+   <td style=text-align:Center>Character HD +4
+   </td>
+  </tr>
+</table>
+
+<p>After getting your result, roll 2d6 + character HD + charisma modifier to determine the maximum number of undead HD affected. Once the undead are controlled, the cleric must take a standard action to direct the affected undead's actions.</p>
+<p>Special: If an evil or neutral character becomes good, this ability can be replaced with Rebuke should they go through an atonement ritual.</p>
+<h3 id="crusher-strike-ex">Crusher Strike (Ex)</h3>
+<p><strong>Prerequisite</strong>: Proficiency with weapon, must be using a bludgeoning weapon<br />
+<strong>Use</strong>: 1 + Str mod per day<br />
+<strong>Action</strong>: Standard Action<br />
+<strong>Target</strong>: Single Target<br />
+<strong>Duration</strong>: Instant</p>
+<p>Against a target you are threatening you can use Crusher Strike which is treated like a normal attack, except it is a touch attack. If hit, the attack is considered to be critical threat. Roll the attack again to confirm, still treating it as a touch attack. This does not apply to unarmed strikes.</p>
+<h3 id="dancing-stars-su-magic">Dancing Stars (Su) [Magic]</h3>
+<p><strong>Prerequisite</strong>: PMA 12+<br />
+<strong>Use</strong>: 1 + 1 per 4 HD per day<br />
+<strong>Range</strong>: Short<br />
+<strong>Action</strong>: Standard Initial; Free secondary<br />
+<strong>Target</strong>: Targeted Creature<br />
+<strong>Duration</strong>: 1 round per level<br />
+<strong>Saving Throw</strong>: Reflex half; none see text<br />
+<strong>DC</strong>: PMA Based<br />
+<strong>Spell Resistance</strong>: Yes</p>
+<p>Your character creates a floating mote of light around them, typically resembling a scintillating star. This star can be passively controlled around the character as a free action. The mote must remain within a 20 ft radius of the character. This mote will emit 30 ft of bright light and 30 ft of shadowy light. This mote can be activated as a swift action, where it will suddenly coalesce and fire a ray at a target dealing 1d6 heat damage per 4 HD, minimum 1d6 heat damage.  </p>
+<p>Alternatively, a mote can be activated as a shield for a selected target. This will grant the target 1d6 warding per 4 HD, minimum 1d6 warding.</p>
+<p>A new mote is gained every 5 HD. This ability cannot be reactivated until all the motes have been used up.</p>
+<h3 id="dragons-pressure-su">Dragon's Pressure (Su)</h3>
+<p><strong>Prerequisite</strong>: Draconic Bloodline</p>
+<p><strong>Use</strong>: Con mod + 2 / day</p>
+<p><strong>Action</strong>: Standard</p>
+<p><strong>Target</strong>: Self; see text</p>
+<p><strong>Duration</strong>: 1 round/level; instant see text</p>
+<p><strong>Saving Throw</strong>: Reflex</p>
+<p><strong>DC</strong>: Con Based</p>
+<p><strong>Spell Resistance</strong>: No</p>
+<p>As a standard action a ghostly image of wings form on your character. They grant you flight at twice your base movement. They can be used to fly for the entire duration. At any point during this time the rest of the duration can be expended to create a field of wind pressure. This is a 180 degree arch from in front of a character with a radius of 60 ft. Creatures within this radius must make a reflex save or be knocked prone and pushed back 5 feet for every 2 rounds of duration remaining, round down. Note, if there is one round left there will be no pushback.</p>
+<p><strong><span style="text-decoration:underline;">Endure</span></strong>(Ex)</p>
+<p><strong>Prerequisite</strong>: Con 16</p>
+<p><strong>Use</strong>: 1/day + 1 for every 4 HD</p>
+<p><strong>Range</strong>: Personal</p>
+<p><strong>Target</strong>: Self</p>
+<p><strong>Action</strong>: Immediate</p>
+<p><strong>Duration</strong>: 1 round, 5 rounds, or 10 rounds; see text</p>
+<p>Gain damage reduction for a brief period of time. Choose the duration of Endure before the ability is activated. 1 round will gain /- DR equal to 10 times your character's con mod, 5 rounds will be 3 times your character's con mod, and 10 rounds will be equal to your character's con mod. </p>
+<p><strong><span style="text-decoration:underline;">Energy Charge</span></strong>(Su)</p>
+<p><strong>Prerequisite</strong>: PMA 12</p>
+<p><strong>Use</strong>: PMA Modifier +2 /day</p>
+<p><strong>Action</strong>: Free</p>
+<p><strong>Target</strong>: Self</p>
+<p><strong>Duration</strong>: 1 round / 2 HD</p>
+<p><strong>Saving Throw</strong>: None</p>
+<p><strong>Spell Resistance</strong>: No</p>
+<p>Choose an energy type (Fire, Ice, Acid, Electricity, Sonic, Force, or any other.)  and that becomes the permanent energy type. When you are charged you gain +1d6 damage to all your attacks made throughout the duration. If you take damage that is of your energy type, heal instead for damage dealt. You also gain a circumstance bonus to attack equal to your PMA.</p>
+<p><strong><span style="text-decoration:underline;">Ephemeral Weapon, Lesser</span></strong>(Su)</p>
+<p><strong>Prerequisite</strong>: None</p>
+<p><strong>Use</strong>: Unlimited</p>
+<p><strong>Action</strong>: Swift; full round if dispelled</p>
+<p><strong>Target</strong>: Self</p>
+<p><strong>Duration</strong>: 24 hours or until dismissed</p>
+<p><strong>Dispel:</strong> Yes</p>
+<p>At will your character can form a +1 weapon of their choosing. The weapon that appears will take on the visual and physical traits that the person imagines it should, sometimes resulting in fanciful looking weapons. This weapon will have 12 hardness and 15 HP. If dispelled it will take a full-round action to summon it back. Ammo is created with the ephemeral weapon. For example, with a bow drawing the string back will produce an arrow.</p>
+<p><strong><span style="text-decoration:underline;">Ephemeral Weapon</span></strong>(Su)</p>
+<p><strong>Prerequisite</strong>: Lesser Ephemeral Weapon</p>
+<p><strong>Use</strong>: Unlimited</p>
+<p><strong>Action</strong>: Swift; full round if dispelled</p>
+<p><strong>Target</strong>: Self</p>
+<p><strong>Duration</strong>: 24 hours or until dismissed; special see notes.</p>
+<p><strong>Dispel:</strong> Yes</p>
+<p>As Lesser Ephemeral Weapon but the bonus grows by +1 at every level evenly divisible by 4; this bonus caps at level 20 with a +6, unlike crafted weapons. As with all enhanced weapon the hardness increases and the HP of the weapon increases. At level 5 you can select a +1 cost special ability for your weapon. At level 10 you can instead select two +1 cost or one +2 cost special ability and that ability will remain on the weapon for the next 24. Please note these selections can only be changed after the 24 hour period. This cannot be a Unique Weapon. As a note the weapon will gain 2 hardness and 10 hp for ever +1 enhancement modifier above +1.</p>
+<p><strong><span style="text-decoration:underline;">Ephemeral Weapon, Greater</span></strong>(Su)</p>
+<p><strong>Prerequisite</strong>: Ephemeral Weapon</p>
+<p><strong>Use</strong>: Unlimited</p>
+<p><strong>Action</strong>: Swift; full round if dispelled</p>
+<p><strong>Target</strong>: Self</p>
+<p><strong>Duration</strong>: 24 hours or until dismissed; special see notes.</p>
+<p><strong>Dispel:</strong> Yes</p>
+<p>As Ephemeral Weapon, but gain a 3 times per day active use ability with the weapon from the list below. Once the option is selected it becomes your character's permanent choice.</p>
+<p>Shatter Burst: The weapon explodes and reforms the next round, and deals slashing damage equal to 1d6 per HD of your character to your target. Reflex for Half DC is Mental based</p>
+<p>Pinning Force: The weapon pins a target to a vertical flat surface dealing 1d6 per 2 HD piercing damage. This is a ranged touch attack, your weapon enhancement bonus applies. Subjects must make an opposed strength check on their turn to free themselves. Your character gets to apply their weapon's enhancement bonus to their opposed strength roll. This can be held with concentration so long as your character keeps succeeding the opposed strength checks.</p>
+<p>Thunderous Yawp: In a 20 ft radius around your character creates a loud thunderous crack and deals 1d4 sonic damage per HD to all targets adjacent to your character. Fortitude save for be deafened for 5 rounds, DC is Mental based.</p>
+<p><strong><span style="text-decoration:underline;">Familiar</span></strong>(Su)</p>
+<p><strong>Prerequisite</strong>: Must not have an animal companion or construct, must be able to cast magic.</p>
+<p><strong>Effect</strong>: Gain a familiar from the suggested familiar list, or any animal/creature with a 2 HD base, and that is small sized or smaller. Your familiar will gain HD as you do and gain feats and stat increases like any creature normally would. A familiar's HP will be equal to its master's or it's own depending on which is higher. All familiar start with at least 10 in intelligence. Stats are rolled like any character, speak with your DM for modifiers. On top of all of this the familiar gains bonuses as your character's HD increases.</p>
+<p>Familiars gain known skills of, Bluff, Concentrate, Diplomacy, Escape Artist, Hide, Listen, Move Silently, Search, Sense Motive, and Spot. </p>
+<p>A familiar is summoned by the caster and remains summoned for the duration that it is alive. If reduced to 0 hit points a familiar will vanish and cannot be resummoned for 72 hours. The resummoning ritual takes 1 hour to complete. </p>
+<p>Familiars use the base saves from their master but their own stats to modify them.</p>
+<p><em>Shared Spell: Spells that are target, "Personal," apply to your character and their familiar when cast.</em></p>
+<p><em>Deliver Touch Spell: A touch spell can be cast on your familiar, then your familiar can deliver the touch spell with a touch attack any number of rounds later as long as it's in the same 24 hour period.</em></p>
+<p><em>Scry on Familiar: This allows your character to see through their familiar's eyes at will.</em></p>
+<p><em>Proxy Spell: While casting a spell you can choose to have it originate from your familiar instead of yourself, this works as long as the familiar is within the spell's range.</em></p>
+<p><em>Hold Spell: Your familiar can hold and store up to 8 levels of spell that it can cast. It can hold these spells indefinitely until cast. Once cast the spells will need to be given to them again. These spells use  your character's DC.</em></p>
+<table>
+  <tr>
+   <td style=text-align:Center>Character HD
+   </td>
+   <td style=text-align:Center>Natural Armor Adj.
+   </td>
+   <td style=text-align:Center>Int Adj.
+   </td>
+   <td colspan="2" style=text-align:Center>Special
+   </td>
+  </tr>
+  <tr>
+   <td style=text-align:Center>1st - 2nd
+   </td>
+   <td style=text-align:Center>+1
+   </td>
+   <td>+4
+   </td>
+   <td style=text-align:Center colspan="2" >Improved evasion, share spells, empathic link
+   </td>
+  </tr>
+  <tr>
+   <td style=text-align:Center>3rd - 4th
+   </td>
+   <td style=text-align:Center>+2
+   </td>
+   <td style=text-align:Center>+4
+   </td>
+   <td style=text-align:Center colspan="2" >Deliver touch spells
+   </td>
+  </tr>
+  <tr>
+   <td style=text-align:Center>5th - 6th
+   </td>
+   <td style=text-align:Center>+3
+   </td>
+   <td style=text-align:Center>+5
+   </td>
+   <td colspan="2" >Speak with master
+   </td>
+  </tr>
+  <tr>
+   <td style=text-align:Center>7th - 8th
+   </td>
+   <td style=text-align:Center>+4
+   </td>
+   <td style=text-align:Center>+5
+   </td>
+   <td style=text-align:Center colspan="2" >Speak with creatures of its kind
+   </td>
+  </tr>
+  <tr>
+   <td style=text-align:Center>9th - 10th
+   </td>
+   <td style=text-align:Center>+5
+   </td>
+   <td style=text-align:Center>+6
+   </td>
+   <td colspan="2" >-
+   </td>
+  </tr>
+  <tr>
+   <td style=text-align:Center>11th - 12th
+   </td>
+   <td style=text-align:Center>+6
+   </td>
+   <td style=text-align:Center>+6
+   </td>
+   <td style=text-align:Center colspan="2" >Spell Resistance (11+HD), Proxy Spell
+   </td>
+  </tr>
+  <tr>
+   <td style=text-align:Center>13th -14th
+   </td>
+   <td style=text-align:Center>+7
+   </td>
+   <td style=text-align:Center>+7
+   </td>
+   <td style=text-align:Center colspan="2" >Scry on familiar (see through its eyes)
+   </td>
+  </tr>
+  <tr>
+   <td style=text-align:Center>15th - 16th
+   </td>
+   <td style=text-align:Center>+8
+   </td>
+   <td style=text-align:Center>+7
+   </td>
+   <td style=text-align:Center colspan="2" >-
+   </td>
+  </tr>
+  <tr>
+   <td style=text-align:Center>17th - 18th
+   </td>
+   <td style=text-align:Center>+9
+   </td>
+   <td style=text-align:Center>+8
+   </td>
+   <td style=text-align:Center colspan="2" >Hold Spell
+   </td>
+  </tr>
+  <tr>
+   <td style=text-align:Center>19th - 20th
+   </td>
+   <td style=text-align:Center>+10
+   </td>
+   <td style=text-align:Center>+8
+   </td>
+   <td style=text-align:Center colspan="2" >-
+   </td>
+  </tr>
+</table>
+
+<p><strong><span style="text-decoration:underline;">Fay Space</span></strong>(Su)</p>
+<p><strong>Prerequisite</strong>: None</p>
+<p><strong>Action</strong>: 1 round, move, or free; see text</p>
+<p><strong>Target</strong>: Self</p>
+<p>Gain extra-dimensional space you can access simply by reaching into it. The carrying capacity of this space is equal to your character's medium load. Items in this space do not count towards your character's carrying capacity. Objects in the storage still spoil, rot, wear and tear. There is no mundane way to steal an item from a fay space if stored. If an object is in fay space when the owner of said fay space dies, they are only retrievable with a miracle or a wish. If the weight limit is exceeded everything falls out of the fay space, typically onto the user.</p>
+<p>At 1 HD retrieving an item from fay space requires a full-round action.</p>
+<p>At 5 HD retrieving an item from fay space requires a move action</p>
+<p>At 10 HD retrieving an item from fay space is a free action.</p>
+<p>Storing an item is a free action.</p>
+<p><strong><span style="text-decoration:underline;">Gravity Oppression, Lesser</span></strong>(Su)</p>
+<p><strong>Prerequisite</strong>: PMA 16+</p>
+<p><strong>Use</strong>: 1 / day + 1 for every 4 HD</p>
+<p><strong>Action</strong>: Standard Action</p>
+<p><strong>Range</strong>: 25 ft + 5 ft/ 2 HD</p>
+<p><strong>Effect</strong>: Up to 10 cubic feet per HD</p>
+<p><strong>Duration</strong>: 1 round + 1 round / 4 HD</p>
+<p><strong>Saving Throw</strong>: Fortitude partial; see text</p>
+<p><strong>DC</strong>: PMA Based</p>
+<p><strong>Spell Resistance</strong>: Yes</p>
+<p>Your character holds up a hand then rotates it palm down. A sudden pressure is felt and in the selected areas of your character gravity is increased three times. Subjects within the affected area must make a fortitude save or fall prone. Standing up in this field is a full-round action rather than a move action. If a target is knocked prone and stands back up, they are immune to falling prone again for the duration of Gravity Oppression. Anyone within the field has their speed reduced to 15 ft. Any flying target falls into the ground for appropriate falling damage; during the effect, they cannot fly.</p>
+<p><strong><span style="text-decoration:underline;">Gravity Oppression, Improved</span></strong>(Su)</p>
+<p><strong>Prerequisite</strong>: PMA 18+, Lesser Gravity Oppression</p>
+<p><strong>Use</strong>: 1 / day + 1 for every 4 HD</p>
+<p><strong>Action</strong>: Standard Action</p>
+<p><strong>Range</strong>: 25 ft + 5 ft/ 2 HD</p>
+<p><strong>Effect</strong>: Up to 10 cubic feet per HD</p>
+<p><strong>Duration</strong>: 1 round + 1 round / 4 HD</p>
+<p><strong>Saving Throw</strong>: Fortitude partial; see text</p>
+<p><strong>DC</strong>: PMA Based</p>
+<p><strong>Spell Resistance</strong>: Yes</p>
+<p>This functions as Lesser Gravity Oppression but subjects within the area now suffer a -3 mobility penalty to AC and Reflex saves. As a swift action, a single target within the radius can be selected once during the effect's duration. This target will be crushed with a much more intense pull of gravity and will have to make a fortitude save or be knocked prone (potentially again) and take 1d6/2 HD in Crushing damage. </p>
+<p><strong><span style="text-decoration:underline;">Gravity Oppression, Greater</span></strong>(Su)</p>
+<p><strong>Prerequisite</strong>: PMA 20+, Lesser Gravity Oppression</p>
+<p><strong>Use</strong>: 1 / day + 1 for every 4 HD</p>
+<p><strong>Action</strong>: Standard Action</p>
+<p><strong>Range</strong>: 25 ft + 5 ft/ 2 HD</p>
+<p><strong>Effect</strong>: Up to 10 cubic feet per HD</p>
+<p><strong>Duration</strong>: 1 round + 1 round / 4 HD</p>
+<p><strong>Saving Throw</strong>: Fortitude partial; see text</p>
+<p><strong>DC</strong>: PMA Based</p>
+<p><strong>Spell Resistance</strong>: Yes</p>
+<p>This functions as Improved Gravity Oppression except the crushing effect can affect everyone in the area of Gravity Oppression rather than just a single target. </p>
+<p><strong><span style="text-decoration:underline;">Hail of Arrows</span></strong>(Ex)</p>
+<p><strong>Prerequisite</strong>: Proficiency with weapon, must be using a bow type weapon.</p>
+<p><strong>Use</strong>: Dexterity mod + 1 /day</p>
+<p><strong>Action</strong>: Standard action</p>
+<p><strong>Target</strong>: 10-ft radius center on a target</p>
+<p><strong>Duration</strong>: Instant</p>
+<p>Make an attack at your full attack bonus on a selected target. If there are more targets within 10-ft of the target your character can choose to target them as well at a -2 attack bonus. This must be decided before the first arrow is fired. The maximum number of creatures that can be affected is equal to your dexterity modifier +1. This action does not provoke an attack of opportunity.</p>
+<p><strong><span style="text-decoration:underline;">Lucky Incense</span></strong>(Ex)</p>
+<p><strong>Prerequisite</strong>: PMA 16</p>
+<p><strong>Use</strong>: 1/day + 1 for every 4 HD</p>
+<p><strong>Range</strong>: 40 ft radius</p>
+<p><strong>Target</strong>: All allies within the radius</p>
+<p><strong>Action</strong>: Standard</p>
+<p><strong>Duration</strong>: 24 Hours</p>
+<p>Through means specific to your character a pleasant cloud of assisting incense that will make your allies more likely to succeed in their tasks. All allies within the radius of the incense when burned gain 1 reroll of any kind of roll. This allowed reroll will last for up to 24 hours, the maximum number of potential rerolls they can hold is 2 within a 24 hour period.</p>
+<p><strong><span style="text-decoration:underline;">Improvised Arcane Device</span></strong>(Su)</p>
+<p><strong>Prerequisite</strong>: Ability to cast arcane spells</p>
+<p><strong>Use</strong>: See Text</p>
+<p><strong>Action</strong>: 1 minute to an hour; see text</p>
+<p><strong>Target</strong>: See Text</p>
+<p><strong>Duration</strong>: See Text</p>
+<p><strong>Saving Throw</strong>: PMA based</p>
+<p><strong>Spell Resistance</strong>: Yes</p>
+<p>You can create impromptu magical items that are temporary and customized to the creator's needs. These effects can range from stunning, damaging, controlling, or healing creatures. To create an IAD the user must sacrifice a spell slot for the day, the level of the spell slot sacrificed can affect the outcome of the device.</p>
+<p>The maximum number of these that can exist for the character is 3+PMA Mod</p>
+<p><strong>Effect Types:</strong></p>
+<p>Stun: Stuns target for one round.</p>
+<p>Blind: Blinds all creatures within 30 ft for one round.</p>
+<p>Fatigue: Fatigues target for one round</p>
+<p>Shaken: leaves all creatures within 30 ft of device shaken for one round</p>
+<p>Acid: Deals 1d6/spell level sacrificed acid damage to target</p>
+<p>Cold: Deals 1d6/spell level sacrificed cold damage to target</p>
+<p>Fire: Deals 1d6/spell level sacrificed fire damage to target</p>
+<p>Electricity: Deals 1d6/spell level sacrificed electrical damage to target</p>
+<p>Sonic: Deals 1d6/spell level sacrificed sonic damage to target</p>
+<p>Positive Energy: 1d6/spell level sacrificed healing to target.</p>
+<p>Negative Energy: 1d6/spell level sacrificed negative damage to target.</p>
+<p>Unlock: Unlocks a DC 10 lock for a level 1 spell sacrifice. The capability increases by 2 for every spell level higher sacrificed.</p>
+<p><strong>Trigger types </strong></p>
+<p>Trap: Up to 10 ft. x 10 ft. square must entered by a creature to go off</p>
+<p>Grenade: Thrown object with a 20 ft range must succeed on ranged touch attack</p>
+<p>Specific trigger: This designates a specific action e.g. putting a specified ring on or opening a door</p>
+<p>Command Word: Triggers when specific word is spoken</p>
+<p>Remote Trigger: Goes off when you use a move action to make it go off</p>
+<p>Improvised items take 1 minute per spell level used, to create.</p>
+<p><strong><span style="text-decoration:underline;">Improvised Arcane Device, Advanced</span></strong>(Su)</p>
+<p><strong>Prerequisite</strong>: HD 10, Ability to cast arcane spells. Improvised arcane device, ability to cast 5th level spells.</p>
+<p><strong>Use</strong>: See Text</p>
+<p><strong>Action</strong>: 1 minute to an hour; see text</p>
+<p><strong>Target</strong>: See Text</p>
+<p><strong>Duration</strong>: See Text</p>
+<p><strong>Saving Throw</strong>: PMA Based</p>
+<p><strong>Spell Resistance</strong>: Yes</p>
+<p>This functions as Improfixed Arcane Device except the dice per spell level used is double. So instead of a level 3 spell making a device that does 3d6 damage, it will instead do 6d6 damage. Effects that only lasted one round, will now last for rounds per spell level used. There are two new effect types also available.</p>
+<p><strong>Effect Types</strong>:</p>
+<p>Slow: Slows all creatures within 15 ft for one round per level sacrificed</p>
+<p>Invisibility: Renders all creatures within 15 ft invisible for one round per level sacrificed; note direct offensive actions taken, will end invisibility.  </p>
+<p><strong><span style="text-decoration:underline;">Inspire Perfection</span></strong>(Su)</p>
+<p><strong>Prerequisite</strong>: Charisma 18</p>
+<p><strong>Use</strong>: 1 + 1/day per 10 HD</p>
+<p><strong>Action</strong>: Standard</p>
+<p><strong>Target</strong>: 1 target within line of sight</p>
+<p><strong>Duration</strong>: 24 hours</p>
+<p><strong>Saving Throw</strong>: Will negates; harmless</p>
+<p><strong>Dispel:</strong> no</p>
+<p><strong>Spell Resistance</strong>: Yes</p>
+<p><em>In one way or another, your character brings out the best in others. They feel they can and will do their very best</em></p>
+<p>The subject of the spell will gain 3 perfect rolls to initiate at a time of their choosing; so long as it's within 24 hours of the spell being cast. A perfect roll is whatever the highest result could be on the die. These rolls can be used to override a failed roll, or prior to rolling at all.</p>
+<p><strong><span style="text-decoration:underline;">Magic Capacitor</span></strong>(Su)</p>
+<p><strong>Prerequisite</strong>: Able to cast magic</p>
+<p><strong>Action</strong>: 1 minute</p>
+<p><strong>Target</strong>: Magic item with charges</p>
+<p>Any magic item that has consumable charges, like a wand, can be recharged by expending your spells per day. Charges are restored at a rate of spell level x 2. This ability can be used any number of times per day that you have spell slots remaining.</p>
+<p><strong><span style="text-decoration:underline;">Natural Magic</span></strong>(Su)</p>
+<p><strong>Prerequisite</strong>: PMA of at least 10 + base spell level</p>
+<p><strong>Use</strong>: 1/day per primary mental attribute modifier</p>
+<p><strong>Action</strong>: Depends on Base Spell</p>
+<p><strong>Target</strong>: Depends on Base Spell</p>
+<p><strong>Duration</strong>: Depends on Base Spell</p>
+<p><strong>Saving Throw</strong>: Depends on Base Spell</p>
+<p><strong>Dispel:</strong> Depends on Base Spell</p>
+<p><strong>DC: </strong>PMA based</p>
+<p><strong>Spell Resistance</strong>: Depends on Base Spell</p>
+<p>Select any spell from any spell list level 5 or less and gain it as a supernatural ability. The DC for this spell will be 10 + 1/2 HD + PMA modifier. This ability can be selected multiple times, the Uses per day are shared across all Natural Magic. Your character's HD is used as their caster level for purposes of duration, spell resistance, range and other CL dependent things.</p>
+<p><strong><span style="text-decoration:underline;">On My Mark</span></strong>(Ex)</p>
+<p><strong>Prerequisite</strong>: Charisma 16</p>
+<p><strong>Use</strong>: 1/day per day +1 per day for every HD divisible by 4</p>
+<p><strong>Action</strong>: Full Round</p>
+<p><strong>Target</strong>: 5 ft radius centered on the user</p>
+<p><strong>Duration</strong>: Instant</p>
+<p>Allies, not including yourself, within the radius gain an immediate move or standard action to use right then or not at all. Unlike typical full round action times, this activates right away, but does prevent you from moving until the beginning of your next turn.</p>
+<p><strong><span style="text-decoration:underline;">Perfect Counter</span></strong>(Ex)</p>
+<p><strong>Prerequisite</strong>: Constitution 14 and Dex 12</p>
+<p><strong>Use</strong>: 1/day + 1 for every Con Modifier</p>
+<p><strong>Action</strong>: Immediate</p>
+<p><strong>Target</strong>: Self</p>
+<p><strong>Duration</strong>: 1 round</p>
+<p>At any point within the round you adopt an entirely defensive stance that gains you a +4 dodge bonus to AC. If any weapon or melee based attack is made against you, and the attacker is in a threatened square you get an immediate single attack against them at your full attack bonus. This can occur as many times as you are attacked by an attacker in a threatened square.</p>
+<p><strong><span style="text-decoration:underline;">Personal Construct</span></strong></p>
+<p><strong>Prerequisite</strong>: Int 14+, character must not have a familiar or animal companion.</p>
+<p><strong>Effect</strong>: Gain a construct that will follow your commands and serve you in combat or other situations. These constructs have no intelligence or constitution scores and have standard construct traits. Charisma for all constructs is 10 and cannot be modified. A construct will need to be created from materials thematic to your character. Constructs gain HD as your character does. When building your construct, you can roll stats or distribute the following as you see fit into Strength, Dexterity or Wisdom: 18, 16, 12. Some things will need to be selected when creating your construct. Damage type will be based on what kind of limbs/weapons they use to fight. Select either piercing, slashing, or bludgeoning as the damage types for their natural  attacks. Constructs can be quadrupedal and have their base movement speed +10 but only get a single natural attack, or be bipedal and get two natural attacks. Constructs can only take Combatant progression charts and either medium or high attack bonuses.</p>
+<p>If Small Sized: +2 Dex, -2 Strength, attacks damage do 1d6 and 18-20 x2 criticals; base speed 20</p>
+<p>If Medium Sized: Attacks do 1d8 x3 criticals; base speed 30</p>
+<p>If Large Sized: +2 Str, -2 Dex, Natural Attacks do 2d6; base speed 20</p>
+<p>The base armor for a construct is 10, money can be spent armoring it up as if applying a normal character's armor to it. Cost modifiers for the armor are the same as if for small, medium or large characters. This armor can also be enchanted. The weapons for your construct are free and considered masterwork, including the +1 bonus to attack. These can be enchanted for standard cost. Magic items can be created to increase a construct's skills, and will be attached to the associated slot. Constructs also cannot speak unless modified to do so. Personal constructs do not gain bonus feats or bonus abilities from their progression. The only abilities they get come from the Special column. They do gain standard feats at 1, 3, 6... ect.</p>
+<table>
+  <tr>
+   <td style=text-align:Center>Character HD
+   </td>
+   <td style=text-align:Center>Natural Armor Adj.
+   </td>
+   <td>HP Adj.
+   </td>
+   <td style=text-align:Center colspan="2" >Special
+   </td>
+  </tr>
+  <tr>
+   <td style=text-align:Center>1st - 2nd
+   </td>
+   <td style=text-align:Center>+1
+   </td>
+   <td style=text-align:Center>+5
+   </td>
+   <td style=text-align:Center colspan="2" >Construct Traits, DR 5/-, Improved Bullrush,  Improved Grab*, or Close Proximity Ranged Combat, Energy Absorption 
+   </td>
+  </tr>
+  <tr>
+   <td style=text-align:Center>3rd - 4th
+   </td>
+   <td style=text-align:Center>+2
+   </td>
+   <td style=text-align:Center>+5
+   </td>
+   <td style=text-align:Center colspan="2" >-
+   </td>
+  </tr>
+  <tr>
+   <td style=text-align:Center>5th - 6th
+   </td>
+   <td style=text-align:Center>+3
+   </td>
+   <td style=text-align:Center>+5
+   </td>
+   <td style=text-align:Center colspan="2" >Energy Vent
+   </td>
+  </tr>
+  <tr>
+   <td style=text-align:Center>7th - 8th
+   </td>
+   <td style=text-align:Center>+4
+   </td>
+   <td style=text-align:Center>+5
+   </td>
+   <td style=text-align:Center colspan="2" >-
+   </td>
+  </tr>
+  <tr>
+   <td style=text-align:Center>9th - 10th
+   </td>
+   <td style=text-align:Center>+5
+   </td>
+   <td style=text-align:Center>+5
+   </td>
+   <td style=text-align:Center colspan="2" >Energy Ray
+   </td>
+  </tr>
+  <tr>
+   <td style=text-align:Center>11th - 12th
+   </td>
+   <td style=text-align:Center>+6
+   </td>
+   <td style=text-align:Center>+5
+   </td>
+   <td style=text-align:Center colspan="2" >DR 10/-
+   </td>
+  </tr>
+  <tr>
+   <td style=text-align:Center>13th - 14th
+   </td>
+   <td style=text-align:Center>+7
+   </td>
+   <td style=text-align:Center>+5
+   </td>
+   <td style=text-align:Center colspan="2" >Energy Shield
+   </td>
+  </tr>
+  <tr>
+   <td style=text-align:Center>15th - 16th
+   </td>
+   <td style=text-align:Center>+8
+   </td>
+   <td style=text-align:Center>+5
+   </td>
+   <td style=text-align:Center colspan="2" >-
+   </td>
+  </tr>
+  <tr>
+   <td style=text-align:Center>17th - 18th
+   </td>
+   <td style=text-align:Center>+9
+   </td>
+   <td style=text-align:Center>+5
+   </td>
+   <td style=text-align:Center colspan="2" >Accelerate
+   </td>
+  </tr>
+  <tr>
+   <td style=text-align:Center>19th - 20th
+   </td>
+   <td style=text-align:Center>+10
+   </td>
+   <td style=text-align:Center>+5
+   </td>
+   <td style=text-align:Center colspan="2" >-
+   </td>
+  </tr>
+</table>
+
+<p>Note: HP bonuses are cumulative. </p>
+<ul>
+<li>Must be quadrapedal</li>
+</ul>
+<p><em>Energy Absorption: Your construct is not only immune, but is repaired, instead of damaged, by anything that deals with the energy type they are powered with. e.g. Sonic, Acid, Positive, Negative, ect...</em></p>
+<p><em>Energy Vent: Once per day per 3 HD the construct can vent whatever type of energy is powering it. If steam, then heat; if spirit power, then positive/negative energy; if arcane then damage type of your choosing. This will affect all adjacent squares dealing 5d6 damage/healing. Reflex save for half, the DC is based on your character's PMA (10+1/2 HD+PMA Mod) This is a standard action.</em></p>
+<p><em>Energy Ray: Once per day per PMA of your character, the construct can attempt a ranged touch attack. The ray will deal 1d6 / 2 HD of the energy type used to animate the construct. This is a standard action</em></p>
+<p><em>Energy Shield: Once per day your golem can create a shield around its creator that gives them a ward that prevents the amount of damage equal to HD x PMA Mod and makes them immune to the energy type used to animate the construct. This is a standard action</em></p>
+<p><em>Accelerate: Once per day, for rounds equal to the PMA of your character, the golem can act as if under the effects of the haste spell. These do not need to be used consecutively. Activating accelerate is a free action.</em></p>
+<p><strong><span style="text-decoration:underline;">Petal Shroud, Lesser</span></strong></p>
+<p><strong>Prerequisite</strong>: PMA 14+</p>
+<p><strong>Use</strong>: Can be broken up as needed but total use per day cannot exceed maximum duration.</p>
+<p><strong>Action</strong>: Standard</p>
+<p><strong>Target</strong>: Self</p>
+<p><strong>Duration</strong>: 1 minute per HD.</p>
+<p>When activated a shroud of flower petals, leaves, or whatever chosen plant material works surrounds the caster and becomes a sort of armor. This grants +1 natural armor, which increases by 1 for every 4 HD. It also grants 2 natural vine swipes that have +5 ft of reach. These two attacks are at your highest base attack bonus and use their PMA as the modifier instead of dex or strength. Damage is 1d6+PMA mod with a x2 critical.</p>
+<p><strong><span style="text-decoration:underline;">Petal Shroud</span></strong></p>
+<p><strong>Prerequisite</strong>: PMA 16+</p>
+<p><strong>Use</strong>: Can be broken up as needed but total use per day cannot exceed maximum duration.</p>
+<p><strong>Action</strong>: Standard</p>
+<p><strong>Target</strong>: Self</p>
+<p><strong>Duration</strong>: 1 minute per HD.</p>
+<p>This functions as Lesser Petal Shroud, but the petals create a cloud that obscures all ranged attacks giving them a 20% miss chance. The vines also gain +1d6 acid damage and can be used for tripping. On top of this being in direct sunlight will grant the user 5 fast healing.</p>
+<p><strong><span style="text-decoration:underline;">Petal Shroud, Greater</span></strong></p>
+<p><strong>Prerequisite</strong>: PMA 18+</p>
+<p><strong>Use</strong>: Can be broken up as needed but total use per day cannot exceed maximum duration.</p>
+<p><strong>Action</strong>: Standard</p>
+<p><strong>Target</strong>: Self</p>
+<p><strong>Duration</strong>: 1 minute per HD.</p>
+<p>This functions as Petal Shroud but the miss chance is increased to 50%, the vines add charisma modifier instead of strength to damage and trips, and direct sunlight grants 10 fast healing.</p>
+<p><strong><span style="text-decoration:underline;">Piercer</span></strong>(Ex)</p>
+<p><strong>Prerequisite</strong>: Proficiency with weapon, must be using a piercing weapon.</p>
+<p><strong>Use</strong>: 1 /day + 1 per 6 HD</p>
+<p><strong>Action</strong>: Standard Action</p>
+<p><strong>Target</strong>: Single Target</p>
+<p><strong>Duration</strong>: Instant</p>
+<p>Select a target,  take a five foot step to them, if they are now, or still in a threatened square make an attack against them. This attack, if it hits, ignores 5 DR of any kind and deals maximum damage. If a critical hit is scored, only the first damage roll is maximized. Similarly, a sneak attack does not get to max its damage dice. This action does not provoke an attack of opportunity. This 5 ft step is separate and can be combined with the 5 foot step free action.</p>
+<p><strong><span style="text-decoration:underline;">Fall of the Phoenix</span></strong>(Su)</p>
+<p><strong>Prerequisite</strong>: Charisma 16; At least three other Phoenix abilities, cannot be undead, and must have the Blessing of the Phoenix</p>
+<p><strong>Use</strong>: 1 per week</p>
+<p><strong>Action</strong>: Immediate</p>
+<p><strong>Target</strong>: Self; 60-ft radius</p>
+<p><strong>Duration</strong>: Instant</p>
+<p><strong>Saving Throw</strong>: Reflex Half; Harmless</p>
+<p><strong>DC</strong>: Charisma-based</p>
+<p><strong>Spell Resistance</strong>: No</p>
+<p>If your character falls to 1/5 (20%) of their health they can, at any time in combat, even not on their turn, self-destruct. This has to be actively done by your character, being killed does not activate this ability. The detonation deals 2d6 damage of your chosen damage type for every HD your character has to enemies. An equivalent amount of health is healed to allies within the radius. After the detonation your character's health will be reduced to lethal levels and their body will be reduced to ashes. After 48 hours your character will reconstitute from the ash. Your character will suffer a -2 constitution as well as fatigue for 72 hours. On top of that your character will be one size category smaller for the duration. During this time your character will be extra hungry and thirsty, requiring twice as much food and water. Nothing can cure these penalties outside of a _Wish<strong> </strong>_spell.</p>
+<p>Synergy: If your character has all 4 of the other abilities, Fall of the Phoenix will trigger on its own when lethal HP is reached.</p>
+<p><strong><span style="text-decoration:underline;">Flight of the Phoenix</span></strong>(Su)</p>
+<p><strong>Prerequisite</strong>: Charisma 14, Shroud of the Phoenix, cannot be undead, and must have the Blessing of the Phoenix</p>
+<p><strong>Use</strong>: 1 per day/ primary attribute mod</p>
+<p><strong>Action</strong>: Standard</p>
+<p><strong>Target</strong>: Selected targets</p>
+<p><strong>Duration</strong>: 1 hour/HD</p>
+<p><strong>Saving Throw</strong>: None</p>
+<p>Gives your character flight of 60 ft (Perfect). Wings take on the appearance of the energy type.</p>
+<p>Synergy: While moving with these wings all quills can be thrown as a free action with the same or different targets.</p>
+<p><strong><span style="text-decoration:underline;">Quills of the Phoenix</span></strong>(Su)</p>
+<p><strong>Prerequisite</strong>: Charisma 14, Shroud of the Phoenix, cannot be undead, and must have the Blessing of the Phoenix</p>
+<p><strong>Use</strong>: 1 per day / 5 HD/ primary attribute mod/ primary attribute mod</p>
+<p><strong>Action</strong>: Standard</p>
+<p><strong>Target</strong>: Selected targets</p>
+<p><strong>Duration</strong>: 1 round/HD; Instant</p>
+<p><strong>Saving Throw</strong>: None</p>
+<p><strong>Spell Resistance</strong>: Yes</p>
+<p>As a standard action your character can create 3 quills that hover above their head and shoulders. Each gives 3 damage reduction that is bypassed by the corresponding damage type.</p>
+<p>The round after being summoned a single quill can be thrown at an enemy as a swift action. If your character succeeds on a ranged touch attack the quill will deal 1d6 per 4 HD (Max 5d6) damage of the corresponding type.</p>
+<p>Synergy: If you have Flight of the Phoenix you gain two additional quills, one over each wing.</p>
+<p><strong><span style="text-decoration:underline;">Shroud of the Phoenix</span></strong>(Su)</p>
+<p><strong>Prerequisite</strong>: Charisma 12; cannot be undead, , and must have Blessing of the Phoenix.</p>
+<p><strong>Use</strong>: 1 per day/ primary attribute mod</p>
+<p><strong>Action</strong>: Free</p>
+<p><strong>Target</strong>: 20-ft Radius around character</p>
+<p><strong>Duration</strong>: 1 round/HD</p>
+<p><strong>Saving Throw</strong>: None, Reflex Half; see text</p>
+<p><strong>DC</strong>: Charisma Based</p>
+<p><strong>Spell Resistance</strong>: Yes</p>
+<p>An energy type must be selected for the shroud, once selected all other phoenix abilities must match the shroud's damage type. This cannot be changed after being selected. Applicable damage types are; fire, ice, acid, electricity, and slashing.</p>
+<p>Within a 20-ft radius around the character enemies will take 3 damage a round of the selected damaged type. Allies within the 20-ft radius will gain 10 resistance to that type, excluding slashing which does not benefit or harm allies.</p>
+<p>As a standard action, the shroud can be exerted by the character. This will cause the effect to flare, dealing 1d6 per round of duration remaining, of the applicable damage type to enemies within the radius. A reflex saved can me made for half and partial. If the reflex is saved a secondary effect will occur; see below.</p>
+<p>Synergy: Gain secondaries if you have Quills of the Phoenix.</p>
+<p><em>Fire: Subjects will catch on fire and burn for 2d6 more damage a round - can be extinguished as a full round action.</em></p>
+<p>_   Ice: Subjects will take a -2 penalty to damage rolls for rounds/HD_</p>
+<p>_   Acid: Subjects will become sickened for rounds/HD_</p>
+<p>_   Electricity: Subjects will become stunned for 1 round_</p>
+<p>_   Slashing: Subjects will bleed 1 damage per round for rounds/HD_</p>
+<p><strong><span style="text-decoration:underline;">Talons of the Phoenix</span></strong>(Su)</p>
+<p><strong>Prerequisite</strong>: Charisma 14, Shroud of the Phoenix, cannot be undead, and must have the Blessing of the Phoenix</p>
+<p><strong>Action</strong>: Attack</p>
+<p>Gain 2 claws as natural attacks. These attacks deal 1d6 slashing damage.</p>
+<p>Synergy: These claws gain an enhancement bonus equal to the number of quills active. The claws will also have +1d6 more damage for the selected energy type.</p>
+<p>Synergy: While executing a charge attack while flying you can hit with both your claw attacks instead of just one.</p>
+<p><strong><span style="text-decoration:underline;">Rage</span></strong>(Ex)</p>
+<p><strong>Prerequisite</strong>: Con 12</p>
+<p><strong>Use</strong>: 1/day per con mod + 1</p>
+<p><strong>Action</strong>: Free </p>
+<p><strong>Target</strong>: Self</p>
+<p><strong>Duration</strong>: 1 Round/HD</p>
+<p>Gain +2 rage bonus to attack and damage, -2 AC, and +1 to spell DCs for the duration of the rage. During all rages concentration checks will need to be made to cast any spell. Once the rage is over your character will be in fatigued status for 5 rounds. These concentration checks will be 10+spell level.</p>
+<p><strong><span style="text-decoration:underline;">Rage, Greater</span></strong>(Ex)</p>
+<p><strong>Prerequisite</strong>: Rage and Con 14</p>
+<p><strong>Use</strong>: 1/day per con mod + 1</p>
+<p><strong>Action</strong>: Free </p>
+<p><strong>Target</strong>: Self</p>
+<p><strong>Duration</strong>: 1 round/HD</p>
+<p>The bonuses increase to +4 attack and damage and +2 to spell DCs. The -2 AC Remains. Also gain 20+( 5x Con mod) in temporary hit points. Spells cast during greater rage are considered to be empowered. Spells are considered to be cast as 2 levels higher. During a greater rage your character also gains +4 to will saves. Once the rage is over your character will still remain fatigued for 5 rounds. Concentration checks during greater rage are increased by 2.</p>
+<p><strong><span style="text-decoration:underline;">Rage, Intensified</span></strong>(Ex)</p>
+<p><strong>Prerequisite</strong>: Greater Rage and Con 16</p>
+<p><strong>Use</strong>: 1/day per con mod + 1</p>
+<p><strong>Action</strong>: Free </p>
+<p><strong>Target</strong>: Self</p>
+<p><strong>Duration</strong>: 1 round/HD</p>
+<p>The bonuses increase to +6 to attack and damage and +3 to spell DCs. The -2 AC remains. Critical threat range on weapons is doubled during the intensified rage. Also gain 40+( 10x Con mod) in temporary it points. Spells are considered to be cast as 4 levels higher. During an intensified rage your character gains +4 on will saves and is immune to any compulsion and fear effects. The first spell cast during an intensified rage is considered maximized and empowered. All spells cast during intensified rage are considered to be empowered. Once the rage is over your character will still remain fatigued for 5 rounds.The concentration check of the first spell is increased by 5, after this they go back to being only 2 higher than normal.</p>
+<p><strong><span style="text-decoration:underline;">Rebuke Undead</span></strong>(Su)</p>
+<p><strong>Prerequisite</strong>: Must be able to cast divine spells, charisma of 12 or higher, must be good or neutral.</p>
+<p><strong>Use</strong>: 3 + Charisma modifier /day</p>
+<p><strong>Action</strong>: Standard</p>
+<p><strong>Target</strong>: 60-ft burst, effects closest Undead first</p>
+<p><strong>Duration</strong>:1 minute</p>
+<p><strong>Saving Throw</strong>: None</p>
+<p>Rebuke undead forces the undead to flee your presence. A rebuke attempt is performed by rolling a d20 + charisma modifier. Take the result and compare it to the table below to know the highest HD of undead that can be affected.</p>
+<table>
+  <tr>
+   <td style=text-align:Center><strong>Rebuke Check Result</strong>
+   </td>
+   <td style=text-align:Center><strong>Most powerful Undead effected</strong>
+   </td>
+  </tr>
+  <tr>
+   <td style=text-align:Center>0
+   </td>
+   <td style=text-align:Center>Character HD -4
+   </td>
+  </tr>
+  <tr>
+   <td style=text-align:Center>1-3
+   </td>
+   <td style=text-align:Center>Character HD -3
+   </td>
+  </tr>
+  <tr>
+   <td style=text-align:Center>4-6
+   </td>
+   <td style=text-align:Center>Character HD -2
+   </td>
+  </tr>
+  <tr>
+   <td style=text-align:Center>7-9
+   </td>
+   <td style=text-align:Center>Character HD -1
+   </td>
+  </tr>
+  <tr>
+   <td style=text-align:Center>10-12
+   </td>
+   <td style=text-align:Center>Character HD
+   </td>
+  </tr>
+  <tr>
+   <td style=text-align:Center>13-15
+   </td>
+   <td style=text-align:Center>Character HD +1
+   </td>
+  </tr>
+  <tr>
+   <td style=text-align:Center>16-18
+   </td>
+   <td style=text-align:Center>Character HD +2
+   </td>
+  </tr>
+  <tr>
+   <td style=text-align:Center>19-21
+   </td>
+   <td style=text-align:Center>Character HD +3
+   </td>
+  </tr>
+  <tr>
+   <td style=text-align:Center>22+
+   </td>
+   <td style=text-align:Center>Character HD +4
+   </td>
+  </tr>
+</table>
+
+<p>After getting your result, roll 2d6 + character HD + charisma modifier to determine the maximum number of Undead HD affected. The nearest undead will flee for 1 minute and the effect radiates outward to the next closest after that until the affected HD is used up. If a cleric moves within 10 feet of an affected undead, the turn is overcome and the undead acts normally. Note -- if a cleric has twice as many HD as an affected undead, that undead will be completely destroyed instead of fleeing.</p>
+<p>Special: If a good or neutral character becomes evil, this ability can be replaced with control undead should they go through an atonement ritual.</p>
+<p><strong><span style="text-decoration:underline;">Shadow Blast</span></strong>(Su)</p>
+<p><strong>Prerequisite</strong>: Dex 14, Cha 12</p>
+<p><strong>Use</strong>: PMA +2 /day</p>
+<p><strong>Action</strong>: Standard</p>
+<p><strong>Range</strong>: Close</p>
+<p><strong>Target</strong>: Single</p>
+<p><strong>Duration</strong>: Instant</p>
+<p><strong>Saving Throw</strong>: Charisma</p>
+<p><strong>DC</strong>: PMA Based</p>
+<p><strong>Spell Resistance</strong>: Yes</p>
+<p>A black orb thrown from your character must succeed on a ranged touch attack. Affected targets then take 1d6 non-lethal damage for every HD your character has. Creatures with immunity to non-lethal damage do not take damage from this ability. Target can make a will save for half damage. All Shadow abilities have shared uses per day.</p>
+<p><strong>Synergy</strong>: If the character has Shadow Fade, that ability can be used as a free action following this attack.</p>
+<p><strong><span style="text-decoration:underline;">Shadow Clasp</span></strong>(Su)</p>
+<p><strong>Prerequisite</strong>: Dex 14, Cha 12</p>
+<p><strong>Use</strong>: PMA + 2 /day</p>
+<p><strong>Action</strong>: Standard</p>
+<p><strong>Range</strong>: Close</p>
+<p><strong>Target</strong>: Single living creature</p>
+<p><strong>Duration</strong>: 1/2 HD + PMA mod rounds</p>
+<p><strong>Saving Throw</strong>: Reflex</p>
+<p><strong>DC</strong>: PMA based</p>
+<p><strong>Spell Resistance</strong>: No</p>
+<p>Your target is gripped by shadowy thorny vines that can hold them. Subjects gripped by these vines move at half speed, are considered flat footed, and take damage equal to the user's PMA modifier per square moved, including free 5 ft step actions. An affected target can spend a full round action and make a strength check, DC 15 or escape artist check DC 20 to break free. All Shadow abilities have shared uses per day.</p>
+<p><strong>Synergy</strong>: If the affected target is also hit with a shadow fade attack, the first attack against the target is considered to be critical threat. If this attack does not confirm, it does not hit.</p>
+<p><strong><span style="text-decoration:underline;">Shadow Fade</span></strong>(Su)</p>
+<p><strong>Prerequisite</strong>: Dex 14, Cha 12</p>
+<p><strong>Use</strong>: PMA + 2 /day</p>
+<p><strong>Action</strong>: Standard</p>
+<p><strong>Target</strong>: Self</p>
+<p><strong>Duration</strong>: 1/2 HD + PMA mod rounds</p>
+<p>When used your character fades into the floor and becomes a shadow. In this form your character cannot swim, fly, climb, or burrow. They move at twice their standard movement speed. While hidden they are immune to area effect spells, though targeted spells can still work if the caster can see your character. The spot DC is equal to 10 + 1/2 HD + Dex mod. The next round, or any round through the duration, your character can reappear as a free action and engage in a full round attack. If the attack deals any damage the subject must make a fortitude save DC 10 + 1/2 HD + Cha mod or take 4 strength damage and be stunned for 1 round. All Shadow abilities have shared uses per day.</p>
+<p><strong><span style="text-decoration:underline;">Shard of Void</span></strong>(Su)</p>
+<p><strong>Prerequisite</strong>: Be able to cast basic or better level of spells. Primary mental attribute has to be 14 or higher.</p>
+<p><strong>Use</strong>: 1/day per primary mental attribute modifier</p>
+<p><strong>Action</strong>: Standard</p>
+<p><strong>Target</strong>: 1 selected target per round</p>
+<p><strong>Duration</strong>: 1 round per every 2 HD, minimum 1 round; maximum 5 rounds (Concentration)</p>
+<p><strong>Saving Throw</strong>: Fortitude Half</p>
+<p><strong>Dispel:</strong> Yes</p>
+<p><strong>DC: </strong>Mental based</p>
+<p><strong>Spell Resistance</strong>: Yes</p>
+<p>You create a fissure in reality that is about a finger length long and about the width of a strand of hair. There is a warped visual distortion around it that is similar to a curved lens. The shard can move at 30 ft per round. If moved into an enemy square the shard deals 1d6 destruction damage for every 2 HD (Max 5d6). Moving the shard requires a move  action. It can be held in the same square for multiple rounds, each round a new fortitude save has to be made. If the character fails to bypass a target's spell resistance the shard is lost.</p>
+<p><strong><span style="text-decoration:underline;">Shard of Void, Improved</span></strong>(Su)</p>
+<p><strong>Prerequisite</strong>: Shard of Void, primary mental attribute has to be 16 or higher.</p>
+<p><strong>Use</strong>: 1/day per primary mental attribute modifier</p>
+<p><strong>Action</strong>: Standard</p>
+<p><strong>Target</strong>: 1 selected target per round</p>
+<p><strong>Duration</strong>: 1 round per every 2 HD, minimum 1 round; Maximum 5 rounds (Concentration)</p>
+<p><strong>Saving Throw</strong>: Fortitude Half</p>
+<p><strong>Dispel:</strong> Yes</p>
+<p><strong>DC: </strong>Mental based</p>
+<p><strong>Spell Resistance</strong>: Yes</p>
+<p>As Shard of Void, but instead deals 1d10 destruction damage per 2 HD(Max 5d10).</p>
+<p><strong><span style="text-decoration:underline;">Shard of Void, Greater</span></strong>(Su)</p>
+<p><strong>Prerequisite</strong>: Improved shard of Void, primary mental attribute has to be 18 or higher.</p>
+<p><strong>Use</strong>: 1/day per primary mental attribute modifier</p>
+<p><strong>Action</strong>: Standard</p>
+<p><strong>Target</strong>: 1 selected target per round</p>
+<p><strong>Duration</strong>: 1 round per every 2 HD and a minimum 1 round</p>
+<p><strong>Saving Throw</strong>: Fortitude Half; partial see text</p>
+<p><strong>Dispel:</strong> Yes</p>
+<p><strong>DC: </strong>Mental based</p>
+<p><strong>Spell Resistance</strong>: Yes</p>
+<p>As Improved shard of void except if the subject fails their save they are nauseated for the duration shard exists in their square. If they make their save they are instead sickened for the duration the shard exists in their square. This no longer requires concentration and can be moved as a free action.</p>
+<p><strong><span style="text-decoration:underline;">Shattering Feedback</span></strong>(Ex)</p>
+<p><strong>Prerequisite</strong>: Con 20, Endure</p>
+<p><strong>Use</strong>: shared with Endure</p>
+<p><strong>Range</strong>: Personal</p>
+<p><strong>Target</strong>: Self</p>
+<p><strong>Action</strong>: Immediate</p>
+<p><strong>Duration</strong>: 1 round, 5 rounds, or 10 rounds; see text</p>
+<p>All damage absorbed by the damage reduction from Endure is dealt back to the weapon that damaged it. When triggered attackers will have to make a reflex save DC equal to 10 + 1/2 HD + Con mod. If the attacker fails the save, the weapon takes the flat damage; hardness applies like normal.</p>
+<p><strong><span style="text-decoration:underline;">Sneak Attack</span></strong>(Ex)</p>
+<p><strong>Prerequisite</strong>: Dexterity 16 and move silently 4, Hide 4 or Bluff 4, cannot have a valour feat</p>
+<p><strong>Action</strong>: Attack</p>
+<p>Gain +1d6 damage per 2 HD(Max +3d6) with your melee or ranged weapon within 30 ft against a flanked, flat-footed, or sufficiently disadvantaged foe. </p>
+<p><strong><span style="text-decoration:underline;">Sneak Attack, Improved</span></strong>(Ex)</p>
+<p><strong>Prerequisite</strong>: Dexterity 18 and Move Silently 8, Sneak 8 or Bluff 8, Sneak Attack</p>
+<p><strong>Action</strong>: Attack</p>
+<p>Gain +1d6 damage per 2 HD(Max +6d6) with your melee or ranged weapon within 30 ft against a flanked, flat-footed foe, or sufficiently disadvantaged foe. </p>
+<p><strong><span style="text-decoration:underline;">Sneak Attack, Greater</span></strong>(Ex)</p>
+<p><strong>Prerequisite</strong>: Dexterity 20 and Move Silently 15, Sneak 15 or Bluff 15, Improved Sneak Attack</p>
+<p><strong>Action</strong>: Attack</p>
+<p>Gain +1d6 damage per 2 HD with your melee or ranged weapon within 30 ft against a flanked, flat-footed foe, or sufficiently disadvantaged foe. </p>
+<p><strong><span style="text-decoration:underline;">Spell Theft</span></strong>(Ex)</p>
+<p><strong>Prerequisite</strong>: Any ability to use spells, including Natural Magic.</p>
+<p><strong>Use</strong>: 1/day + 1 for every 6 HD</p>
+<p><strong>Action</strong>: Immediate</p>
+<p>When your character saves from a spell they can choose to take the spell instead and hold it for later use. This only works on spells directed at them, so they cannot absorb a fireball they were in the radius of unless they were the center target. Any held spell is lost if not used within 24 hours.</p>
+<p><strong><span style="text-decoration:underline;">Spirit Form</span></strong>(Ex)</p>
+<p><strong>Prerequisite</strong>: Access to the Nature magic list or a sufficiently explained backstory</p>
+<p><strong>Use</strong>: 1/day + 1 for every 4 HD</p>
+<p><strong>Action</strong>: Full round</p>
+<p><strong>Duration</strong>: Hours/level; until canceled</p>
+<p>Spirit Form allows your character to transform into any animal type creature but retain their casting ability and mental attributes. Animals selected have to be large size or smaller, and will get the penalties and bonuses associated with that size. The new form will always gain +2 strength and dex from your character and will always use your character's constitution. Gain the animal's natural attacks and base attack. Weapons cannot be used in this form, but non-weapon based abilities and spells can.</p>
+<p><strong><span style="text-decoration:underline;">Static Cling</span></strong>(Su)</p>
+<p><strong>Prerequisite</strong>: PMA 12</p>
+<p><strong>Use</strong>: PMA Modifier +2 /day</p>
+<p><strong>Action</strong>: Standard</p>
+<p><strong>Target</strong>: 2 targets no more than 20 ft apart.</p>
+<p><strong>Duration</strong>: 3 rounds</p>
+<p><strong>Saving Throw</strong>: Mixed; see text</p>
+<p><strong>Spell Resistance</strong>: Yes</p>
+<p>Select two targets and they are pulled together so that they end up in adjacent squares. If SR is not penetrated on any target the effect fails and the daily use is expended. A reflex save can be made against this pull. If after the first round the users are not in adjacent squares they take 1d6 (Maximum 20d6) electrical damage for every square they are apart at the beginning of your character's turn. Any time the targets could take damage a reflex save can be made for half damage.</p>
+<p><strong><span style="text-decoration:underline;">Suppression Field, Lesser</span></strong>(Su)</p>
+<p><strong>Prerequisite</strong>: Charisma 14</p>
+<p><strong>Use</strong>: 1/day per day + Cha Mod</p>
+<p><strong>Action</strong>: Swift</p>
+<p><strong>Effect</strong>: 20 ft radius centered on the user</p>
+<p><strong>Duration</strong>: 1 Hour/HD</p>
+<p><strong>Saving Throw</strong>: Will Negates; 24 hours</p>
+<p><strong>DC</strong>: Charisma-based</p>
+<p><strong>Spell Resistance</strong>: No</p>
+<p>Any non-ally in this field suffers a -1 morale penalty to Attacks and AC. Other effects below have a Charisma-based save. Once a non-ally enters the field they must roll a save against it, if they succeed they become immune for 24 hours. If they fail they remain failed for 24 hours or until the effect changes. Only one effect can be active at a time, and it is a swift action to change it.</p>
+<p>Vulnerability: Become vulnerable to a selected energy type, Heat, Cold, Electric, Acid, or Sonic.</p>
+<p>Wounding: Any time a non-ally takes damage, they will take another 1 damage.</p>
+<p>Mire: Non-Allies have their movement speeds reduced by 5</p>
+<p>Armor Breaking: Non-Allies have all physical damage reductions reduced by 3</p>
+<p>Ruiner: Gain a -1 luck penalty to any one of the following; Will, Fortitude, Reflex.</p>
+<p><strong><span style="text-decoration:underline;">Suppression Field, Improved</span></strong>(Su)</p>
+<p><strong>Prerequisite</strong>: Charisma 16 and HD 6</p>
+<p><strong>Use</strong>: 1/day per day + Cha Mod</p>
+<p><strong>Action</strong>: Swift</p>
+<p><strong>Effect</strong>: 20 ft radius centered on the user</p>
+<p><strong>Duration</strong>: 1 Hour/HD</p>
+<p><strong>Saving Throw</strong>: Will Negates; 24 hours</p>
+<p><strong>DC</strong>: Charisma-based</p>
+<p><strong>Spell Resistance</strong>: No</p>
+<p>Any non-ally in this field suffers a -3 morale penalty to Attacks and AC. Other effects below have a Charisma-based save. Once a non-ally enters the field they must roll a save against it, if they succeed they become immune for 24 hours. If they fail they remain failed for 24 hours or until the effect changes. Only one effect can be active at a time, and it is a swift action to change it.</p>
+<p>Vulnerability: Become vulnerable to a selected energy type, Heat, Cold, Electric, Acid, or Sonic. Subjects will also take 1d4 damage of the selected type around.</p>
+<p>Wounding: Any time a non-ally takes damage, they will take another 3 damage.</p>
+<p>Mire: Non-allies have their movement speeds reduced by 10</p>
+<p>Armor Breaking: Non-allies have all physical damage reductions reduced by 9</p>
+<p>Ruiner: Non-allies gain a -3 luck penalty to any one of the following; Will, Fortitude, Reflex.</p>
+<p><strong><span style="text-decoration:underline;">Suppression Field, Greater</span></strong>(Su)</p>
+<p><strong>Prerequisite</strong>: Charisma 16 and HD 12</p>
+<p><strong>Use</strong>: 1/day per day + Cha Mod</p>
+<p><strong>Action</strong>: Swift</p>
+<p><strong>Effect</strong>: 30 ft radius centered on the user</p>
+<p><strong>Duration</strong>: 1 Hour/HD</p>
+<p><strong>Saving Throw</strong>: Will Negates; 24 hours</p>
+<p><strong>DC</strong>: Charisma-based</p>
+<p><strong>Spell Resistance</strong>: No</p>
+<p>Any non-ally in this field suffers a -3 morale penalty to Attacks and AC. Other effects below have a Charisma-based save. Once a non-ally enters the field they must roll a save against it, if they succeed they become immune for 24 hours. If they fail they remain failed for 24 hours or until the effect changes. Only one effect can be active at a time, and it is a swift action to change it.</p>
+<p>Vulnerability: Become vulnerable to a selected energy type, Heat, Cold, Electric, Acid, or Sonic. Subjects will also take 1d8 damage of the selected type around.</p>
+<p>Wounding: Any time a non-ally takes damage, they will take another 5 damage.</p>
+<p>Mire: Non-Allies have their movement speeds reduced by 15</p>
+<p>Armor Breaking: Non-Allies have all physical damage reductions reduced by 6</p>
+<p>Ruiner: Gain a -5 luck penalty to any one of the following; Will, Fortitude, Reflex.</p>
+<p><strong><span style="text-decoration:underline;">Taunting Challenge</span></strong>(Ex)</p>
+<p><strong>Prerequisite</strong>: Cha 12</p>
+<p><strong>Use</strong>: Cha Modifier +2 /day</p>
+<p><strong>Action</strong>: Immediate</p>
+<p><strong>Target</strong>: Selected targets within 40 ft</p>
+<p><strong>Duration</strong>: 1 round / 4 HD</p>
+<p><strong>Saving Throw</strong>: Mixed; see text</p>
+<p><strong>Spell Resistance</strong>: Yes</p>
+<p>Select two targets and shout a challenge to them they cannot ignore. Targets must succeed on a Will Save DC (10+1/2 HD + Cha Mod) or be forced to target your character. A target that failed their save can choose to ignore the challenge but then will take a -2 morale penalty to all rolls for the duration of the challenge. If a target saves they can ignore the challenge.</p>
+<p><strong>Special</strong>: Strength can be used in place of Charisma for determining the Will Save DC so long as the character is HD 10 or higher.</p>
+<p><strong><span style="text-decoration:underline;">Telekinetics, Lesser</span></strong></p>
+<p><strong>Prerequisite</strong>: Primary mental attribute 14, must be capable of casting magic</p>
+<p><strong>Use</strong>: 1 + PMA per day</p>
+<p><strong>Action</strong>: Standard</p>
+<p><strong>Target</strong>: Object or Person targeted</p>
+<p><strong>Range</strong>: Short; 25 ft + 5 ft / 2 levels for initial grab.</p>
+<p><strong>Duration</strong>: Instant or 1 minute/HD; see text</p>
+<p><strong>Saving Throw</strong>: None; see text</p>
+<p><strong>Spell Resistance</strong>: Yes</p>
+<p>With this ability one can move objects around and carry them without touching them.  Their primary mental attribute determines carry, lift, and push weights as if it were strength for the purposes of use. A hurled object with lesser does 1d4 damage for every 10 lbs it weighs (Max 20d4) with an effective range of 20 feet from its initial position. An object can be thrown only if it is at the character’s maximum light load weight or less. This is treated as a ranged attack but the character's caster level is the attack bonus and is modified by their mental attribute. If the object is over 25 lbs this is treated as a touch attack. Maximum movable object by weight is 5 lbs / HD</p>
+<p>Sustained pushing at the max limit will fatigue a character after 2 rounds and exhaust a character after 5 rounds. When pushing or pulling things in medium load's weight a character will be fatigued after 10 rounds and exhausted after 25. Pushing, pulling, and carrying objects is not an instant action and uses the duration instead.</p>
+<p>If the target of your telekinesis is living, the only actions that can be attempted is are Bull Rush and Overrun. Treat the character's caster level as their base attack and their mental attribute modifier as their strength. This is considered to be a bull rush attempt from a small sized creature. Unlike the standard uses of these, they provoke no attack of opportunity unless they are within melee range, and they cannot simply be avoided.</p>
+<p><strong><span style="text-decoration:underline;">Telekinetics</span></strong></p>
+<p><strong>Prerequisite</strong>: Primary mental attribute 16, must be capable of casting magic, Lesser Telekinetics</p>
+<p><strong>Use</strong>: Shared with Telekinetics</p>
+<p><strong>Action</strong>: Standard</p>
+<p><strong>Target</strong>: Object or Person targeted</p>
+<p><strong>Range</strong>: Short; 25 ft + 5 ft / 2 levels for initial grab.</p>
+<p><strong>Duration</strong>: Instant or 1 minute/HD; see text</p>
+<p><strong>Saving Throw</strong>: None; see text</p>
+<p><strong>Spell Resistance</strong>: Yes</p>
+<p>With this ability one can move objects around and carry them without touching them.  Their primary mental attribute determines carry, lift, and push weights as if it were strength for the purposes of use. A hurled object with improved does 1d6 damage for every 10 lbs it weighs with an effective range of 40 feet from its initial position. An object can be thrown only if it is at the maximum light load weight or less. This is treated as a ranged attack but the character's caster level is the attack bonus and is modified by their mental attributes. If the object is over 25 lbs this is treated as a touch attack. Maximum movable object by weight is 10 lbs / HD</p>
+<p>Sustained pushing at the max limit will fatigue a character after 2 rounds and exhaust a character after 5 rounds. When pushing or pulling things in medium load's weight a character will be fatigued after 10 rounds and exhausted after 25. Pushing or pulling an object within the character's light load will not fatigue them. Pushing, pulling, and carrying objects is not an instant action and uses the duration instead.</p>
+<p>If the target of your telekinesis is living, the only actions that can be attempted is are Bull Rush and Overrun. Treat the character's caster level as their base attack and their mental attribute modifier as their strength. This is considered to be a bull rush attempt from a medium sized creature. Unlike the standard uses of these, they provoke no attacks of opportunity unless they are within melee range, and they cannot simply be avoided.</p>
+<p>Disarm attempts can be made with improved telekinesis. For purposes of calculation the character's caster level is the Base Attack, and the primary mental attribute modifies it. Improved telekinesis is considered to be a single handed standard weapon. If successful the weapon can be dropped, or thrown using the formula above for damage added to the weapon damage.</p>
+<p><strong><span style="text-decoration:underline;">Telekinetics, Greater</span></strong></p>
+<p><strong>Prerequisite</strong>: Primary mental attribute 16, must be capable of casting magic, Lesser Telekinetics</p>
+<p><strong>Use</strong>: 1 + PMA per day</p>
+<p><strong>Action</strong>: Standard</p>
+<p><strong>Target</strong>: Object or Person targeted</p>
+<p><strong>Range</strong>: Short; 25 ft + 5 ft / 2 levels for initial grab.</p>
+<p><strong>Duration</strong>: Instant or 1 minute/HD; see text</p>
+<p><strong>Saving Throw</strong>: None; see text</p>
+<p><strong>Spell Resistance</strong>: Yes</p>
+<p>With this ability one can move objects around and carry them without touching them. Their primary mental attribute determines carry, lift, and push weights as if it were strength for the purposes of use. A hurled object with greater does 1d8 damage for every 10 lbs it weighs with an effective range of 80 feet from initial position. An object can be thrown only if it is at the maximum light load weight or less. This is treated as a ranged attack but the character's caster level is the attack bonus and is modified by their mental attribute. If the object is over 25 lbs this is treated as a touch attack. Maximum movable object by weight is 15 lbs / HD</p>
+<p>Sustained pushing at the max limit will fatigue a character after 2 rounds and exhaust a character after 5 rounds. When pushing or pulling things in medium load's weight a character will be fatigued after 10 rounds and exhausted after 25. Pushing or pulling an object within the character's light load will not fatigue them. Pushing, pulling, and carrying objects is not an instant action and uses the duration instead.</p>
+<p>If the target of your telekinesis is living, the only actions that can be attempted are Bull Rush and Overrun. Treat the character's caster level as their base attack and their mental attribute modifier as their strength. This is considered to be a bull rush attempt from a large sized creature. Unlike the standard uses of these, they provoke no attack of opportunity unless they are within melee range, and they cannot simply be avoided. </p>
+<p>Disarm attempts can be made with improved telekinesis. For purposes of calculation the character's caster level is the Base Attack, and the primary mental attribute modifies it. Improved telekinesis is considered to be a two-handed standard weapon. If successful the weapon can be dropped, or thrown using the formula above for damage added to the weapon damage.</p>
+<p>Telekinesis can be used to wield a weapon the character is proficient in. The weapon must be in the same square as the character. The base attack bonus of the weapon will be equal to the caster level + the character's primary mental attribute. The weapon will deal damage as normal using the primary mental attribute as a damage modifier. Any weapon enhancement modifiers on the weapon will be valid as well. Two handed weapons do not gain any extra multipliers for being wielded in this way.</p>
+<p><strong><span style="text-decoration:underline;">Tincture of Vigor</span></strong>(Ex)</p>
+<p><strong>Use</strong>: 1/day + 1 for every 4 HD</p>
+<p><strong>Range</strong>: Touch</p>
+<p><strong>Target</strong>: Target Touched</p>
+<p><strong>Action</strong>: Standard</p>
+<p><strong>Duration</strong>: 1 minute</p>
+<p>Either with magic, alchemy, or other means; your character applies the substance to themself or an ally to gain greater effectiveness in combat. For the duration the character's movement speed is increased by 20 ft, dodge bonus is increased by +2, and they gain a +2 haste bonus to attack and damage. The movement bonus does not stack with <em>Haste</em>, but the attack and damage bonus does.</p>
+<p><strong><span style="text-decoration:underline;">Twin Talon</span></strong>(Ex)</p>
+<p><strong>Prerequisite</strong>: Proficiency with weapon</p>
+<p><strong>Use</strong>: Str/Dex(whichever is higher) + 1 /day</p>
+<p><strong>Action</strong>: Standard Action</p>
+<p><strong>Target</strong>: Single Target</p>
+<p><strong>Duration</strong>: Instant</p>
+<p>Attack twice at your highest bonus with a -2 penalty. If both attacks hit and deal damage the target must make a fortitude save DC (10 + 1/2 HD + Str/Dex) Use whichever bonus is higher, or the target will receive a wound type affliction based on damage type. This action can be done as part of a charge with the +2 bonuses to attack and damage, and the -2 to AC until the beginning of your character's next turn.</p>
+<p><strong><span style="text-decoration:underline;">Unleash</span></strong>(Ex)</p>
+<p><strong>Prerequisite</strong>: Personal Construct, Familiar or Animal Companion</p>
+<p><strong>Use</strong>: Infinite</p>
+<p><strong>Action</strong>: Full-Round (Concentration)</p>
+<p><strong>Target</strong>: 90 feet must be within line of site.</p>
+<p><strong>Duration</strong>: Until Canceled</p>
+<p>Your character concentrates on their foe and commands their pet, construct, or familiar to attack. Your pet, construct, or familiar will do so with great prejudice gaining a +3 circumstance bonus to attack, and a +3 dodge bonus against that foe. These bonuses increase by 1 for every 6 HD your character has. Changing targets must be done at the beginning of your turn.</p>
+<p><strong><span style="text-decoration:underline;">Valour</span></strong>(Ex)</p>
+<p><strong>Prerequisite</strong>: Must not have sneak attack, Str 14, Con 14</p>
+<p><strong>Range</strong>: Personal</p>
+<p><strong>Target</strong>: Self</p>
+<p><strong>Duration</strong>: Constant and 1 hour; see text</p>
+<p>When threatened by two or more foes in combat, gain +2 dodge bonus against the threatening foes, and a +2 circumstance to attack if the foes are flanking you. If one of these foes are felled your character will gain 10 + (Con Mod x 5) points of temporary hit points. These temporary hit points last for 1 hour if not lost. Maximum temporary hit points cannot exceed your base maximum hit points. E.g. if your character has 24 hit points maximum, then 24 temporary hit points is the max amount your character can have.</p>
+<p><strong><span style="text-decoration:underline;">Valour, Improved</span></strong>(Ex)</p>
+<p><strong>Prerequisite</strong>: Must not have sneak attack, Str 16, Con 14</p>
+<p><strong>Range</strong>: Personal</p>
+<p><strong>Target</strong>: Seld</p>
+<p><strong>Duration</strong>: Constant </p>
+<p>As Valour but, the dodge and attack bonuses are increased to +3. You get an attack of opportunity any time a sneak attack is used against you, so long as you have any attacks of opportunity remaining. Non-touch spells cast in this position do not provoke attacks of opportunity.</p>
+<p><strong><span style="text-decoration:underline;">Valour, Greater</span></strong>(Ex)</p>
+<p><strong>Prerequisite</strong>: Must not have sneak attack, Str 18, Con 14</p>
+<p><strong>Range</strong>: Personal</p>
+<p><strong>Target</strong>: Seld</p>
+<p><strong>Duration</strong>: Constant </p>
+<p>As Improved Valour but, the dodge and attack bonuses are increased to +4. If a sneak attack misses you gain temporary HP as if you had felled a foe. Your maximum number of attacks of opportunity in around, while being flanked, is increased by 2.</p>
+<p><strong><span style="text-decoration:underline;">Were-Transformation</span></strong>(Ex)</p>
+<p><strong>Prerequisite</strong>: Lycanthrope Definition</p>
+<p><strong>Use</strong>: 1+ 1 /day per 4 HD</p>
+<p><strong>Action</strong>: Full Round</p>
+<p><strong>Target</strong>: Self</p>
+<p><strong>Duration</strong>: 1 hour per Con Mod</p>
+<p>Your character shifts into a hybrid form between their base race and an animal form. In the process they gain natural attacks, a temporary constitution and strength bonus, and heal damage equal to their constitution modifier x 10, up to whatever the new HP max is while in this form, gain Fast Healing 5, increase base movement by 20, and gain a +4 circumstance to Climb and Jump.</p>
+<p>The natural attacks will be two claws and a bite. The claw attacks will be at base attack bonus equal to their hit dice and the bite will be 5 lower. Medium size claws deal 1d8 damage with a 19-20 x2 critical. The Bite will be 1d10 with a x3 critical.</p>
+<p>During this time your character will gain a +6 circumstantial bonus to Strength and Constitution.</p>
+<p>At the end of the duration your character will be exhausted for 5 minutes and fatigued until rested. It cannot be used again until the exhaustion wears off. Entering the transformed state again will cure the fatigue.</p>
+<p><strong><span style="text-decoration:underline;">Wind Slash</span></strong>(Su)</p>
+<p><strong>Prerequisite</strong>: Proficiency with weapon, must be using a slashing type weapon.</p>
+<p><strong>Use</strong>: Charisma mod + 1 /day</p>
+<p><strong>Action</strong>: Standard action</p>
+<p><strong>Target</strong>: 20-ft Line</p>
+<p><strong>Duration</strong>: Instant</p>
+<p>This is a line attack that hits everything in the line. The attack is made like normal and the result is compared against all the target's AC. The damage dealt as if a normal damage roll and is equal for all those hit. This action does not provoke an attack of opportunity.</p>
+
+  <br>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../Afflictions/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../Afflictions/" class="btn btn-xs btn-link">
+        Aflictions
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../progression/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../progression/" class="btn btn-xs btn-link">
+        Home
+      </a>
+    </div>
+    
+  </div>
+
+    <br>
+</div>
+
+<footer class="container-fluid wm-page-content">
+  <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+
+</body>
+</html>
