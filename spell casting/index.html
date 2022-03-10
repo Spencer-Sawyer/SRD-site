@@ -39,6 +39,7 @@
               {title: "Generalist", url: "#generalist" },
               {title: "Arcane", url: "#arcane" },
               {title: "Divine", url: "#divine" },
+              {title: "Nature", url: "#nature" },
           ]},
         ];
 
@@ -114,18 +115,22 @@ Conversion notes:
 <p><strong>Divine</strong>: A deity will use a person as a conduit for their bidding, those favored in this manner have access to divine magic; a gift from their god. This does not mean they need to worship a specific god, a sufficiently fervent person can have multiple deities channeling through them, though the person might not realize who's tool they are.</p>
 <p><strong>Nature</strong>: Those in touch with nature know its ways and its methods and how to use it to an end. Such casters tend to work with the natural world with an empathic understanding of their environment, they are able to shake rocks, control plants, or even become animals themselves.</p>
 <p>All of these spells derive their effectiveness from a primary mental attribute, or PMA. This will determine the amount of spells per day, or spell slots, the character has. A minimum PMA of 10 + Spell level is needed to cast levels of that level. For example a 5th level spell would need a 15 PMA.</p>
-<p><strong>PMA: </strong>Primary Mental Attribute. These are chosen at character creation and are selected from Intelligence, Wisdom, or Charisma. Once selected it cannot be changed. Certain definitions and abilities have specific PMA requirements.</p>
-<p><strong>Components</strong>: Spell components come in a few varieties. These are Somatic, Verbal, Material, Focus, and Holy Symbol. Somatic are hand motions, gestures, or physical things that need to be done to make the spell work. Verbal components are words that must be spoken, often in a cryptic language. Material components are components consumed in a spell that are required to make it work. A focus is a component that is required to make the spell work, but does not get consumed. It is possible to substitute any material component with a 10gp or less cost with a standard focus of any kind. E.g. a wand, an orb, a staff, whatever the mage uses to sling spells.</p>
+<p><strong>PMA</strong>: Primary Mental Attribute. These are chosen at character creation and are selected from Intelligence, Wisdom, or Charisma. Once selected it cannot be changed. Certain definitions and abilities have specific PMA requirements.</p>
+<p><strong>PMA mod</strong>: This is the modifer from your primary mental attribute</p>
+<p><strong>Components</strong>[M]: Spell components come in a lot of varieties and are consumed on the use of the spell. Most are very inexpensive and can be assumed puchased when, 'refilling your spell component pouch.' Any component that costs 1 gp or more must be specifically purchased and held within your inventory.</p>
+<p><strong>Focus</strong>[F]: A focus is an object, sometimes required by spells, that helps the caster user their spells. If a focus has 10x the value of a material component, the spell can be cast without the material component. Focuses tend to be staves, orbs, wands, holy symbol, crystals, or anything that is thematic to the caster.</p>
+<p><strong>Somatic</strong>[S]: Most spells have somatic components, which require hand, body, or other kinds of motions. If restricted spells that require somatic components cannot be cast.</p>
+<p><strong>Verbal</strong>[V]: Most spells have verbal components. These are incantations, holy recitations, or other thematic vocalizations. If silenced in anyway spells that requite verbal cmponents cannot be cast.</p>
 <p><strong>Damage/Healing</strong>: A lot of spells deal damage and any spell that has a damage or healing roll involved also ads the PMA modifier at the end.</p>
-<p><strong>Casting a Spell</strong>: Casting a spell is relatively simple your character takes the appropriate actions; swift, standard, or full-round action and the target of their spell makes a save. It is also possible an attack roll is made in a spell, if so, follow the kind of attack required.</p>
+<p><strong>Casting a Spell</strong>: Casting a spell is relatively simple your character takes the appropriate actions; immediate, swift, standard, or full-round action and the target of their spell makes a save. It is also possible an attack roll is made for a spell, if so, follow the kind of attack required. Please note a full-round spell finishes at the beginning of the cater's next turn.</p>
 <p><strong>Spell Resistance</strong>: Spell resistance (SR) works like armor class, though it isn’t as easy to obtain. If a spell is subject to spell resistance, and the target has any. Simply roll 1d20 + Caster Level + any other mods you might have to it.</p>
-<p><strong>Concentration</strong>: Concentration refers to a few different things in spell casting. In general, it’s based on the skill Concentration, which is the ability to hold a spell or cast a spell while adverse things are happening. For example: When you cast a spell it provokes an attack of opportunity from anyone who’s threatened squares the caster is in. If hit from that attack a concentration check will need to be made to see if you can cast the spell. Below are circumstances, and their DC, where concentration checks apply</p>
+<p><strong>Concentration</strong>: Concentration refers to a few different things in spell casting. In general, it’s based on the skill Concentration, which is the ability to hold a spell or cast a spell while adverse things are happening. For example: When you cast a spell it provokes an attack of opportunity from anyone who’s threatened squares the caster is in. If hit from that attack a concentration check will need to be made to see if you can cast the spell. Below are circumstances, and their DC, where concentration checks apply.</p>
 <p>Damaged while casting: DC = Damage Dealt</p>
 <p>Grappled: DC = 10; opposed grapple needed to even cast</p>
 <p>Distracted: DC = 15</p>
 <p>Casting Defensively: DC = 10 + Spell Level</p>
 <p>Concentrating/Rage: These have their own rules see their entries.</p>
-<p><strong>Concentrating</strong>: Some spells have a duration labeled as “Concentration Max X rounds.” This means every round the spell is maintained a concentration check based on how the spell works or the spell will end. These can often be ended willfully.</p>
+<p><strong>Concentrating</strong>: Some spells have a duration labeled as “Concentration Max X rounds.” This means you must focus on that spell and cannot cast any other spell or effect that has the duration described as "Concentration." Other standard actions can be taken. If you are struck, grappled, or otherwise distracted while maintaining a concentration spell, you must roll a concentration check.</p>
 <p><strong>Metamagic</strong>: Metamagic is the magic of altering magic. All spell casters can apply the concept to their spells. They can prepare a lower-level spell into a higher-level spell slot and treat that spell as if it were in the higher-level slot for purposes of calculating the spell's DC. There are also feats that create modifications of this.</p>
 <h2 id="simplex-spells">Simplex Spells</h2>
 <p>All casters get spells they can cast at their whim. These are spells so simple they take little to no energy to use. In essence, they only do one thing and do not do very much damage or healing overall. Most effects are limited, so when creating these bear this in mind.</p>
@@ -136,53 +141,52 @@ Conversion notes:
 <p>See full spell list for full spell information, below are summaries</p>
 <h2 id="advance-simplex-spells">Advance Simplex Spells</h2>
 <p>Some definitions allow the use of advanced simplex spells which are more powerful than their standard counterparts. These are typically found in wands, staves, and magical items and not typically learned by people. The DC they have are still calculated like a normal simplex spell.</p>
-<p><strong>Greater Missile Strike</strong>: Fire a large magic missile at a single target dealing 1d6/2 CL damage Max 5d6; gain a second missile at 15th level. </p>
-<p><strong>Greater Magic Shield</strong>: As the shield spell but with a +6 to AC</p>
-<p><strong>Minor Image</strong>: As the minor image spell</p>
-<p><strong>Mass Distract: </strong> Subjects takes -1 on attack rolls and AC for 1 + 1/round per 3 levels.</p>
+<p><strong>Greater Missile Strike</strong>: Fire a large magic missile at a single target dealing 1d6 per 2 CL damage Max 5d6; gain a second missile at 15th level. <br />
+<strong>Greater Magic Shield</strong>: As the shield spell but with a +6 to AC<br />
+<strong>Minor Figment</strong>: As the minor figment spell   <br />
+<strong>Mass Distract</strong>: Subjects takes -1 on attack rolls and AC for 1 + 1 per 3 CL.</p>
 <h2 id="generalist">Generalist</h2>
-<p><strong>Resistance</strong>: +1 resistance bonus to all saves and +1/ 4 caster levels.</p>
-<p><strong>Bless</strong>: Increase attack and damage of group members by +1 for round/caster level</p>
-<p><strong>Free Hand</strong>: Invisible hand that can move up to 5 lb of objects, trigger traps, ect... lasts up to 1 minute +1 minute /2 CL.</p>
-<p><strong>Flare</strong>: Dazzles one creature (-1 penalty on attack rolls) for round/HD.</p>
-<p><strong>Arcane Tricks</strong>: A general purpose spell that does a large number of trivial things.</p>
-<p><strong>Light</strong>: Make a touched object glow like a torch for 1 hour/CL.</p>
-<p><strong>Know Direction</strong>: You discern north.</p>
-<p><strong>Tend: </strong>Heals target when used, see text as situation affects the outcome. </p>
-<p><strong>Virtue</strong>: Subject gains 2 hp of regenerative warding per HD.</p>
+<p><strong>Resistance</strong>: +1 resistance bonus to all saves and +1 per 4 CL.<br />
+<strong>Bless</strong>: Increase attack and damage of group members by +1 for round/caster level<br />
+<strong>Free Hand</strong>: Invisible hand that can move up to 5 lb of objects, trigger traps, ect... lasts up to 1 minute +1 minute per 2 CL.<br />
+<strong>Flare</strong>: Dazzles one creature (-1 penalty on attack rolls) for round per CL.<br />
+<strong>Arcane Tricks</strong>: A general purpose spell that does a large number of trivial things. <br />
+<strong>Light</strong>: Make a touched object glow like a torch for 1 hour per CL. <br />
+<strong>Know Direction</strong>: You discern north. <br />
+<strong>Tend</strong>: Heals target when used, see text as situation affects the outcome. <br />
+<strong>Virtue</strong>: Subject gains 2 hp of regenerative warding per HD.</p>
 <h2 id="arcane">Arcane</h2>
-<p><strong>Energy Bolt</strong>: Selected energy type deals 1d4 and +1d4/ 2 CL damage.</p>
-<p><strong>Resistance</strong>: +1 resistance bonus to all saves and +1/ 4 caster levels.</p>
-<p><strong>Thrown Noise</strong>: Creates a noise up to 30 feet away. Noise must be generated by the caster.</p>
-<p><strong>Free Hand</strong>: Invisible hand that can move up to 5 lb of objects, trigger traps, ect... lasts up to 1 minute +1 minute /2 caster levels.</p>
-<p><strong>Light</strong>: Make a touched object glow like a torch for 1 hour / caster level.</p>
-<p><strong>Detect Magic</strong>: Detect magical auras and if a thing is magical by focusing on it.</p>
-<p><strong>Distract</strong>: Subject takes -1 on attack rolls and AC for 1 + 1/round per 3 levels.</p>
-<p><strong>Far Whisper</strong>: Whisper a conversation at a distance to a selected subject within range.</p>
-<p><strong>Touch of Fatigue: </strong>Touch fatigues target for 1 round/CL.</p>
-<p><strong>Arcane Tricks</strong>: A general purpose spell that does a large number of trivial things.</p>
-<p><strong>Detect Poison</strong>: Detects poison in one creature or object.</p>
+<p><strong>Energy Bolt</strong>: Selected energy type deals 1d4 and +1d4 per 2 CL damage.<br />
+<strong>Resistance</strong>: +1 resistance bonus to all saves and +1 per 4 CL.<br />
+<strong>Thrown Noise</strong>: Creates a noise up to 30 feet away. Noise must be generated by the caster.<br />
+<strong>Free Hand</strong>: Invisible hand that can move up to 5 lb of objects, trigger traps, ect... lasts up to 1 minute +1 minute per 2 CL.<br />
+<strong>Light</strong>: Make a touched object glow like a torch for 1 hour per CL.<br />
+<strong>Detect Magic</strong>: Detect magical auras and if a thing is magical by focusing on it.<br />
+<strong>Distract</strong>: Subject takes -1 on attack rolls and AC for 1 + 1 round per 3 levels.<br />
+<strong>Far Whisper</strong>: Whisper a conversation at a distance to a selected subject within range.<br />
+<strong>Touch of Fatigue</strong>: Touch fatigues target for 1 round per CL.  <br />
+<strong>Arcane Tricks</strong>: A general purpose spell that does a large number of trivial things.<br />
+<strong>Detect Poison</strong>: Detects poison in one creature or object.  </p>
 <h2 id="divine">Divine</h2>
-<p><strong>Bless</strong>: Increase attack and damage of group members by +1 for round/CL<strong> </strong></p>
-<p><strong>Detect Magic: </strong>Detect magical auras and if a thing is magical by focusing on it.</p>
-<p><strong>Disruption: </strong>Deal 1d6/ 2 CL to undead in 15 ft radius, harmless to living.</p>
-<p><strong>Harm: </strong>Deal 1d4/ 2 CL negative damage with a touch attack, heals undead.</p>
-<p><strong>Light</strong>: Make a touched object glow like a torch for 1 hour / caster level</p>
-<p><strong>Resistance: </strong>+1 resistance bonus to all saves and +1/ 4 caster levels.</p>
-<p><strong>Tend: </strong>Heals target when used, see text as situation affects the outcome. </p>
-<p><strong>Touch of Fatigue:</strong>Touch fatigues target for 1 round/CL</p>
-<p><strong>Purify Food and Drink</strong>: Purifies 1 cu. ft./level of food or water.</p>
-<p>##  \
-Nature</p>
-<p><strong>Create Water</strong>: Created 2 gallons/level of water.</p>
-<p><strong>Light</strong>: Make a touched object glow like a torch for 1 hour / caster level</p>
-<p><strong>Purify Food and Drink</strong>: Purifies 1 cu. ft./level of food or water.</p>
-<p><strong>Know Direction</strong>: You discern north.</p>
-<p><strong>Detect Poison</strong>: Detects poison in one creature or object.</p>
-<p><strong>Resistance: </strong>+1 resistance bonus to all saves and +1/ 4 CL.</p>
-<p><strong>Virtue</strong>: Subject gains 1 hp of warding per HD.</p>
-<p><strong>Flare</strong>: Dazzles one creature (-1 penalty on attack rolls) for round/HD.</p>
-<p><strong>Rolling Stone</strong>: Thrown stones deal 1d6/ 2 CL bludgeoning damage as a ranged attack.</p>
+<p><strong>Bless</strong>: Increase attack and damage of group members by +1 for round per CL. <br />
+<strong>Detect Magic</strong>: Detect magical auras and if a thing is magical by focusing on it. <br />
+<strong>Disruption</strong>: Deal 1d6 per 2 CL to undead in 15 ft radius, harmless to living. <br />
+<strong>Harm</strong>: Deal 1d4/ 2 CL negative damage with a touch attack, heals undead. <br />
+<strong>Light</strong>: Make a touched object glow like a torch for 1 hour per CL.<br />
+<strong>Resistance</strong>: +1 resistance bonus to all saves and +1 per 4 CL. <br />
+<strong>Tend</strong>: Heals target when used, see text as situation affects the outcome.  <br />
+<strong>Touch of Fatigue</strong>: Touch fatigues target for 1 round per CL <br />
+<strong>Purify Food and Drink</strong>: Purifies 1 cu. ft./level of food or water.</p>
+<h2 id="nature">Nature</h2>
+<p><strong>Create Water</strong>: Creat 2 gallons of water per CL. <br />
+<strong>Light</strong>: Make a touched object glow like a torch for 1 hour per CL <br />
+<strong>Purify Food and Drink</strong>: Purifies 1 cu. ft. per level of food or water. <br />
+<strong>Know Direction</strong>: You discern north.
+<strong>Detect Poison</strong>: Detects poison in one creature or object. <br />
+<strong>Resistance</strong>: +1 resistance bonus to all saves and +1 per 4 CL.<br />
+<strong>Virtue</strong>: Subject gains 1 hp of warding per CL.<br />
+<strong>Flare</strong>: Dazzles one creature (-1 penalty on attack rolls) for 1 round per HD.<br />
+<strong>Rolling Stone</strong>: Thrown stones deal 1d6 per 2 CL of bludgeoning damage as a ranged attack.</p>
 
   <br>
     
