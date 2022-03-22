@@ -41,6 +41,7 @@
               {title: "Swift Actions", url: "#swift-actions" },
               {title: "Immediate Action", url: "#immediate-action_1" },
               {title: "Combat Actions", url: "#combat-actions" },
+              {title: "Advance Combat Maneuver", url: "#advance-combat-maneuver" },
           ]},
         ];
 
@@ -90,7 +91,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 
     <!-----
 
-Yay, no errors, warnings, or alerts!
+No errors, warnings, or alerts!
 
 Conversion time: 0.484 seconds.
 
@@ -100,7 +101,7 @@ Using this Markdown file:
 1. Paste this output into your source file.
 2. See the notes and action items below regarding this conversion run.
 3. Check the rendered output (headings, lists, code blocks, tables) for proper
-   formatting and use a linkchecker before you publish this page.
+   formatting and use a link checker before you publish this page.
 
 Conversion notes:
 
@@ -114,15 +115,19 @@ Conversion notes:
 <h2 id="basics">Basics</h2>
 <h3 id="initiative-roll">Initiative Roll</h3>
 <p>Start combat with an initiative roll. This should be done by rolling 1d20 and adding your character's initiative bonus to the roll. </p>
-<p>If there is a conflict of two rolls being the same, have the conflicting characters roll against eachother and arrange them by high to low before slotting them into your initiative order.</p>
+<p>If there is a conflict of two rolls being the same, have the conflicting characters roll against each other and arrange them by high to low before slotting them into your initiative order.</p>
 <p><em>As a suggested rule, divide your bonus by 100 and add it to the end as a decimal to help reduce the amount of initiative conflicts. Example: 1d20+8 with a roll of 12 would be 20.08</em></p>
 <h3 id="combat-round">Combat Round</h3>
 <p>A combat round is when all of the turns have been taken and the current initiative order is back at the top. The duration of a combat round is approximately 6 seconds.</p>
 <h3 id="space">Space</h3>
 <p>Space is the amount of squares a character takes up. For most characters this will by 5 ft., or one square. Please note, small characters take up 5 ft as well.</p>
 <h3 id="reach">Reach</h3>
-<p>Reach is how many squares a character threatens. Medium and Small size creatures with non-reach weapons threaten all ajacent squares. Smaller than small size must occupy the same square as an opponent. </p>
+<p>Reach is how many squares a character threatens. Medium and Small size creatures with non-reach weapons threaten all adjacent squares. Smaller than small size must occupy the same square as an opponent. </p>
 <p>If a medium size creature has a reach weapon their reach expands out another set of squares out. A small size creature using a reach weapon does the same, but loses the corners of the larger square. <em>Diagram Pending</em></p>
+<h3 id="size-modifiers">Size Modifiers</h3>
+<p>For many combat maneuvers size effects the opposing rolls made between two creatures. As a result, creatures smaller than medium take a -4 penalty for every size category smaller than medium. Creatures larger than medium gain a +4 bonus for every size category above medium.</p>
+<h3 id="opposed-rolls">Opposed Rolls</h3>
+<p>For advanced combat maneuvers they will often make mention of opposed rolls. These are rolls where the aggressor and defender during a maneuver must roll against each other. whichever of the two rolls highers is the winner.</p>
 <h2 id="turn-and-actions">Turn and Actions</h2>
 <p>A character's turn is broken down into action types, things here can get a bit granular. Primarily a turn is broken into a move action, a standard action, free actions, and a swift action should they have any. A standard action can instead be replaced with a character's attack action(s).</p>
 <h3 id="move-action">Move Action</h3>
@@ -136,9 +141,9 @@ Conversion notes:
 <h3 id="free-action">Free Action</h3>
 <p>A free action is something that can be done with little to no thought and at the same time as other actions. This would include speaking, grabbing something from a readily available place on the character's person, drawing a weapon while moving, and whatever else might fit. No two free actions can be the same action, but a character is allowed as many free actions as they can use.</p>
 <h3 id="swift-action">Swift Action</h3>
-<p>A swift action, sometimes called a bonus action, are actions that can occur with everthing else happening. These are often spells or abilities, rarely any kind of physical or martial combat maneuver. If a spell or ability is labled as a swift action, it is one. A character can only use a single swift action per round.</p>
+<p>A swift action, sometimes called a bonus action, are actions that can occur with everything else happening. These are often spells or abilities, rarely any kind of physical or martial combat maneuver. If a spell or ability is labeled as a swift action, it is one. A character can only use a single swift action per round.</p>
 <h3 id="full-round-action">Full Round Action</h3>
-<p>A full round action takes the entire round, so it begins on a characters turn, and ends at the beginning of the next character's turn. This means the character on the following term can act normally again. No move, swift, standard or immediate actions can take place during a Full Round Action. Often times these are slow casting spells, such as summons, slow to execute abilities,a charge, bullrush, or overrun.</p>
+<p>A full round action takes the entire round, so it begins on a characters turn, and ends at the beginning of the next character's turn. This means the character on the following term can act normally again. No move, swift, standard or immediate actions can take place during a Full Round Action. Often times these are slow casting spells, such as summons, slow to execute abilities,a charge, bull-rush, or overrun.</p>
 <h3 id="immediate-action">Immediate Action</h3>
 <p>The rarest kind of action is an immediate action, sometimes called a reaction. These actions can be used at any point during a round by a character. A character can only use one immediate action per round.</p>
 <h2 id="move-actions">Move Actions</h2>
@@ -147,7 +152,7 @@ Conversion notes:
 <p><strong>Activating Motion based items</strong>: Items that require it be moved or twisted or otherwise manipulated in less than a button or command word, are move actions. This would be something like a Rod of Sealing, where the rod has to be moved in a square around the target. This provokes an attack of opportunity.</p>
 <p><strong>Drawing a weapon</strong>: When drawing a weapon during movement is not specified, or the character is standing still, it is a move action. This provokes an attack of opportunity.</p>
 <p><strong>Standing/Dropping</strong>: Standing up or dropping to prone is a movement action. This provokes an attack of opportunity.</p>
-<p><strong>5-foot step</strong>: a 5-foot step is a special move action where a character carefully moves to avoid being struck. This can sometimes becalled a shift or a reposition.</p>
+<p><strong>5-foot step</strong>: a 5-foot step is a special move action where a character carefully moves to avoid being struck. This can sometimes be called a shift or a reposition.</p>
 <p><strong>Drinking a Potion</strong>: Drinking a potion is a move action</p>
 <h2 id="standard-actions">Standard Actions</h2>
 <p><strong>Attack(s)</strong>: Using your attack, or multiple attacks, takes the place of your standard action slot. Somethings are considered attack actions that must be used with an attack roll. This would be some spell touch attacks, trips, sunders, and disarms.</p>
@@ -156,23 +161,29 @@ Conversion notes:
 <p><strong>Use Activated items</strong>: Items that are use-activated. This would be something like a </p>
 <h2 id="free-actions">Free Actions</h2>
 <p><strong>Speaking</strong>: Speaking is a free action, try to keep it to a 6 second blurb or simple thought in combat.</p>
-<p><strong>Simple item retreival</strong>: If an item is on a belt hoop, in a very easily accessed pocket, or stored for quick usage, retrieving it is a free action.</p>
+<p><strong>Simple item retrieval</strong>: If an item is on a belt hoop, in a very easily accessed pocket, or stored for quick usage, retrieving it is a free action.</p>
 <p><strong>Command word/thought activated items</strong>: Some magical items are activated through thoughts or command words, activating these are free actions.</p>
 <h2 id="swift-actions">Swift Actions</h2>
 <p><strong>Ability/Spell Specified</strong>: The only kinds of swift actions are specified in abilities and spell entries. No swift action provokes an attack of opportunity.</p>
 <h2 id="immediate-action_1">Immediate Action</h2>
-<p><strong>Attack of Opportunity</strong>: If at any point during your round a creature leaves one of your threatened squares, and isn't using a 5-foot step, you can make an attack of opportunity on them as an immediate action. Other actions can also allow for an attack of opportunity as specified in their entries. Without feats, a character only gets one Attack of Opportunity in a round.</p>
+<p><strong>Attack of Opportunity</strong>: If at any point during your round a creature leaves one of your threatened squares, and isn't using a 5-foot step, you can make an attack of opportunity on them as an immediate action. Other actions can also allow for an attack of opportunity as specified in their entries. Without feats, a character only gets one attack of opportunity in a round.</p>
 <p><strong>Use of a held action</strong>: A character can hold its move or standard action until a condition is met. When/If the condition is met they can act immediately with the prepared action. This will move their turn to that point in the initiative.</p>
 <h2 id="combat-actions">Combat Actions</h2>
 <p>Below are the rules for each combat action that can be taken, both advanced and standard.</p>
-<p><strong>Attack</strong>: A normal attack is done by rolling 1d20 + Base Attack Bonus + Str/Dex Mod + other modifiers. It is then compared to the opponents Armor Class (AC). If your attack is equal to or greater than the opponents AC it is considered a hit.</p>
-<p><strong>Ranged Attack</strong>: A ranged attack is done by rolling 1d20 + Base Attack + Dex + any other modifiers. Like normal attacks it also compares against AC to dermine if a hit happens. If in a threatened square this will provoke an attack of opportunity. When shooting through ally squares there is up to a 50% chance you hit your ally by accident depending on how much of the allied square the shot goes through. This is done by ear and there are no hard and fast rules on the percentages.</p>
+<p><strong>Attack</strong>: A normal attack is done by rolling 1d20 + Base Attack Bonus + Strength/Dexterity Mod + other modifiers. It is then compared to the opponents Armor Class (AC). If your attack is equal to or greater than the opponents AC it is considered a hit.</p>
+<p><strong>Ranged Attack</strong>: A ranged attack is done by rolling 1d20 + Base Attack + Dexterity + any other modifiers. Like normal attacks it also compares against AC to determine if a hit happens. If in a threatened square this will provoke an attack of opportunity. When shooting through ally squares there is up to a 50% chance you hit your ally by accident depending on how much of the allied square the shot goes through. This is done by ear and there are no hard and fast rules on the percentages.</p>
 <p><strong>Damage</strong>: Damage is rolled after hitting an opponent. Each weapon has it's own die type, which will be listed in the weapon entry. Then you add in strength and other modifiers after the roll. </p>
 <p><strong>Defensive Fighting</strong>: This is an option when attacking to take a -4 circumstance penalty to attack and gain a +2 circumstance bonus to AC.</p>
 <p><strong>Full Defensive Posture</strong>: This is a full round action in which your character does not attack, but instead focuses on defending themselves. When in Full Defensive Posture a character gains +4 dodge bonus to AC and Reflex Saves.</p>
-<p><strong>Melee Touch Attack</strong>: This is usually a component to a spell, but it's an attack where armor does not matter since the effect need only make contact. Roll like any ranged attack but the target does not apply any Shield, Parry, Armor, or Natural armor to their AC. Dex, Deflection, Dodge, Insight and Luck bonuses still apply. As a special note if a spell requires a melee touch attack, the spell does not provoke an attack of opportunity even if in a threatened square.</p>
-<p><strong>Ranged Touch Attack</strong>: This is usually a component to a spell, but it's an attack where armor does not matter since the effect need only make contact. Roll like any ranged attack but the target does not apply any Shield, Parry, Armor, or Natural armor to their AC. Dex, Deflection, Dodge, Insight and Luck bonuses still apply.</p>
+<p><strong>Melee Touch Attack</strong>: This is usually a component to a spell, but it's an attack where armor does not matter since the effect need only make contact. Roll like any ranged attack but the target does not apply any Shield, Parry, Armor, or Natural armor to their AC. Dexterity, Deflection, Dodge, Insight and Luck bonuses still apply. As a special note if a spell requires a melee touch attack, the spell does not provoke an attack of opportunity even if in a threatened square.</p>
+<p><strong>Ranged Touch Attack</strong>: This is usually a component to a spell, but it's an attack where armor does not matter since the effect need only make contact. Roll like any ranged attack but the target does not apply any Shield, Parry, Armor, or Natural armor to their AC. Dexterity, Deflection, Dodge, Insight and Luck bonuses still apply.</p>
 <p><strong>Casting a spell/using an ability</strong>: A spell being cast is simply called out, the DM will then check to see if you are in any threatened squares. Once done then the effect of the spell is explained by the player the monster must save against the spell. Please note some spells incorporate an attack, see attack rules above.</p>
+<h2 id="advance-combat-maneuver">Advance Combat Maneuver</h2>
+<p>There are things that can be done in combat that are a bit more involved than simply rolling an attack and damage. These things tend to have alternate outcomes that allow for the martially minded to control the combat arena a bit more. Much of these attacks work the same way, but will be explained as fully as they can be.</p>
+<p><strong>Trip Attack</strong>: This is an attack action. To initiate a trip attempt, the aggressor must make a melee touch attack. This provokes an attack of opportunity from the defender. If the defender is successful in dealing damage the aggressor takes a -4 penalty on the following opposed roll. After the attack of opportunity both parties must make opposed strength rolls. If the aggressor succeeds, the defender is knocked prone. If the defender succeeds, the trip attempt fails.Size modifiers apply.</p>
+<p>Note: Attack of opportunity only applies if the aggressor is in the defender's threatened squares.</p>
+<p><strong>Disarm</strong>: This is an attack action. To initiate a disarm, the aggressor must have as free hand or a disarming weapon. The aggressor will make a melee touch attack against the defender. This provokes an attack of opportunity from the defender. If the defender is successful in dealing damage the aggressor takes a -4 penalty on the following opposed roll. The targets must then make opposed dexterity rolls. If the aggressor succeeds, the defender's weapon drops to the floor in an adjacent square. If the defender succeeds, the attempt fails.</p>
+<p>Note: Attack of opportunity only applies if the aggressor is in the defender's threatened squares.</p>
 
   <br>
     
