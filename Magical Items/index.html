@@ -12,7 +12,7 @@
     <link rel="shortcut icon" href="../img/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
     <title>Magical Items - SRD</title>
-    <link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet">
+    <link href="../css/bootstrap-3.3.7.css" rel="stylesheet">
     <link href="../css/font-awesome-4.7.0.css" rel="stylesheet">
     <link href="../css/base.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/highlight.css">
@@ -33,6 +33,7 @@
         
         var pageToc = [
           {title: "Magical Items", url: "#_top", children: [
+              {title: "Imbuements", url: "#imbuements" },
               {title: "Armor/Shield Enhancement Costs", url: "#armorshield-enhancement-costs" },
           ]},
         ];
@@ -75,17 +76,32 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 Insert notes about stuff here! 
 -->
 
-<p>&lt;&gt;</p>
-<h1 id="magical-items">Magical Items</h1>
-<p>Magical items are the second half of a character. Every encounter in the examples are built with a character having their level's gold worth of magical items. A character without their tools is vulnerable, especially at higher levels.</p>
-<h2 id="armorshield-enhancement-costs">Armor/Shield Enhancement Costs</h2>
-<p>Armor enhancement is a bonus that increases the armor's hardness, hit points, and armor enhancement bonus. The price of this is determined by squaring the bonus and multiplying by two hundred. (Bonus<sup>2</sup> x 200) Every enhancement bonus increases the hardness of an armor by 2 and the HP of the armor by 10. Enhancement costs for shields are the same, as are the hardness and HP bonuses.</p>
 <style>
-th {color: #FFFFFF; background-color: #000000;}
+th {color: #FFFFFF; background-color: #000000;text-align:center}
 tr:nth-child(even) {color: #000000; background-color: #E2E2E2;}
-tr:hover {color: #000000; background-color: #E5DFB3;}
+.center{margin-left: auto; margin-right: auto;}
+.tab {text-indent: 30px}
+.DefinedHover tr:hover{color: #000000; background-color: #E5DFB3;}
 </style>
-<table style="text-align:center">
+
+<h1 id="magical-items">Magical Items</h1>
+<p class=tab> 
+Magical items are the second half of a character. Every encounter in the examples are built with a character having their level's gold worth of magical items.  A character without their tools is vulnerable, especially at higher levels.</P>
+
+<h2 id="imbuements">Imbuements</h2>
+<p class=tab>
+Imbuements are special traits, features, protections, or otherwise useful things an armor, shield, or weapon can do. Imbuements are limited by the enhancement modifier of the item. An Arming Sword +1 has one imbuement capacity. Meanwhile an Arming Sword +5 has five imbuement capacity . An imbuement is permanent and cannot be undone.</P>
+
+<p><em>Alternative: If it is desired that imbuements be removable. They can be explained as runes, gems, or some other thing that is attached to an item. The imbuement would follow the rune or gem instead of being permanently stuck to a weapon</em>  </p>
+<p><strong>Minor Imbuements</strong>: These are very weak affects that take 0 capacity, but limited to one per item. These can be applied to any masterwork   </p>
+<p><strong>Lesser Imbuements</strong>: The first lesser imbuement takes one capacity. The second and onward take up two capacity.   </p>
+<p><strong>Moderate Imbuement</strong>: The first moderate imbuement takes up two capacity. The second and onward take up three capacity.   </p>
+<p><strong>Greater Imbuement</strong>: These take four capacity.</p>
+<h2 id="armorshield-enhancement-costs">Armor/Shield Enhancement Costs</h2>
+<p class=tab>
+Armor enhancement is a bonus that increases the armor's hardness, hit points, and armor enhancement bonus. The price of this is determined by squaring the bonus and multiplying by two hundred. (Bonus<sup>2</sup> x 200) Every enhancement bonus increases the hardness of an armor by 2 and the HP of the armor by 10. Enhancement costs for shields are the same, as are the hardness and HP bonuses.</p>
+
+<table class="table DefinedHover center" style="text-align:center">
  <tr>
   <th style="text-align:center">Cost in Gold</th>
   <th style="text-align:center">Enhancement Modifier</th>
@@ -106,9 +122,39 @@ tr:hover {color: #000000; background-color: #E5DFB3;}
   <td>+5</td>
 </table>
 
-<h3 id="imbuements">Imbuements</h3>
-<p>On top of enhancement an armor can have a set number of imbuements. These are broken down into three categories, Lesser, Moderate, and Greater. The amount of imbuements on the weapon is limited by the enhancement modifier on the weapon. If a weapon is +5 it has a capacity of 5. </p>
-<p><strong>Lesser Imbuments</strong></p>
+<h3 id="minor-imbuements-armor"><strong>Minor Imbuements, Armor</strong></h3>
+<p><strong>Weather Proof</strong>: Temperatures ranging from -50 C to 50 C are now comfortable in this armor, making said temperatures safe and non-exhausting.</p>
+<p><strong>Enduring</strong>: Long marches are easier and the wearer can long travel twice as far before resting.</p>
+<p><strong>Comfortable</strong>: Sleeping in this armor does not incur penalties.</p>
+<table class="center" style="text-align:center">
+ <tr>
+  <th>Imbuement</th>
+  <th>Cost (gp)
+ <tr>
+  <td>Comfortable</td>
+  <td>50
+ <tr>
+  <td>Enduring</td>
+  <td>65</td>
+ <tr>
+  <td>Weather Proof</td>
+  <td>85</td>
+</table>
+
+<h3 id="lesser-imbuements-armor"><strong>Lesser Imbuements, Armor</strong></h3>
+<p><strong>Articulated</strong>: This increases the maximum dexterity of an armor by 1.    </p>
+<p><strong>Buoyant</strong>:  Gain +5 to enhancement bonus to swim. So long as your character is in a medium load or less you also ignore weight penalties while swimming. These benefits only apply when the armor is worn.  </p>
+<p><strong>Chameleon</strong>: Gain +5 enhancement bonus to hide while wearing this armor.    </p>
+<p><strong>Energy Resistant</strong>: Gain 10 Energy Resistance with one of the specified types, Heat, Cold, Electrical, Acid, and Sonic.    </p>
+<p><strong>Forming</strong>: Armor instantly dons or doffs as a move action. Armor is stored in a dimensional pocket that stays with the player. </p>
+<p><strong>Mitigating</strong>: The damage reduction for the armor is increased by 1 and becomes /- if it was not previously.   </p>
+<p><strong>Mobile</strong>: The armor check penalty, if the armor has one, is reduced by 2.   </p>
+<p><strong>Padded</strong>: Gain a +5 enhancement bonus to move silently while wearing this armor.   </p>
+<p><strong>Slick</strong>: Gain a +5 enhancement bonus to escape artist while wearing this armor.</p>
+<h3 id="moderate-imbuements-armor"><strong>Moderate Imbuements, Armor</strong></h3>
+<p><strong>Accelerated</strong>: Gain a +10 ft enhancement bonus to movement speed while wearing this armor.</p>
+<p><strong>Deceptive</strong>: Armor can appear as any, or no, clothing as a standard action. The armor will remain this way until another standard action is spent to change it again. This allows viewers a Spot DC. The DC is 10 + total Disguise bonus for the bearer. Armor can be felt even if the spot check is failed.</p>
+<p><strong>Reinforced</strong>: This armor grants a +4 fortification bonus to AC against critical confirmation rolls. Sneak Attacks also do half damage while wearing this armor.</p>
 
   <br>
     
