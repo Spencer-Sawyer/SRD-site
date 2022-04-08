@@ -375,4 +375,19 @@
          <lastmod>2022-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
+    <url>
+         <loc>https://defined.eedq.org/SSbL/Abjuration/</loc>
+         <lastmod>2022-04-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://defined.eedq.org/SSbL/Compulsion/</loc>
+         <lastmod>2022-04-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://defined.eedq.org/SSbL/Conjuration/</loc>
+         <lastmod>2022-04-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
 </urlset>
