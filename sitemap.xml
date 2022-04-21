@@ -386,12 +386,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://defined.eedq.org/Magical%20Items/Magical%20Armor/</loc>
+         <loc>https://defined.eedq.org/Magical%20Items/</loc>
          <lastmod>2022-04-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://defined.eedq.org/Magical%20Items/Magical%20Items/</loc>
+         <loc>https://defined.eedq.org/Magical%20Items/Magical%20Armor/</loc>
          <lastmod>2022-04-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -437,6 +437,11 @@
     </url>
     <url>
          <loc>https://defined.eedq.org/SSbL/Transmutation/</loc>
+         <lastmod>2022-04-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://defined.eedq.org/Skills/</loc>
          <lastmod>2022-04-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
