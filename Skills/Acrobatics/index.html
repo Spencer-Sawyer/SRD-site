@@ -34,6 +34,8 @@
         var pageToc = [
           {title: "Acrobatics (Strength)", url: "#_top", children: [
               {title: "Jumping", url: "#jumping" },
+              {title: "Climbing", url: "#climbing" },
+              {title: "Combat Acrobatics", url: "#combat-acrobatics" },
           ]},
         ];
 
@@ -60,7 +62,11 @@ Jumping, climbing, tumbling, back flips, and other similar things would fall und
 
 <h2 id="jumping">Jumping</h2>
 <p class=tab>
-If your character needs to jump they typically require at least a 10 foot running start for a medium or small sized creature. Large size creatures require 10 ft more for every category beyond medium. Smaller creatures only need 5 ft, which is the minimum. Long jumps are easier than high jumps, for rolls and DCs please review the chart below. For high jumps the value will be for what is vaulted over, not how high they are able to reach with their hands. To get the reach take the high jump height and add 3 ft.
+If your character needs to jump they typically require at least a 10 foot running start for a medium or small sized creature. Large size creatures require 10 ft more for every category beyond medium. Smaller creatures only need 5 ft, which is the minimum. Long jumps are easier than high jumps, for rolls and DCs please review the chart below. For high jumps the value will be for what is vaulted over, not how high they are able to reach with their hands. To get the reach take the high jump height and add 3 ft. </p>
+
+<p class=tab>
+There are times when a creatures movement speed is faster than 30 ft. For ever 10 feet of speed above 30 a creature gains a +2 movement bonus to their jump rolls. Likewise a creature will gain a -2 penalty for every 5 feet of movement lower than 30.
+</p>
 
 <table style="text-align:center">
 <th style="text-align:center"> Long Jump Attempted
@@ -73,7 +79,7 @@ If your character needs to jump they typically require at least a 10 foot runnin
   <td>20</td>
  <tr>
   <td>20 ft. long jump</td>
-  <td>25</td>
+  <td>24</td>
  <tr>
   <td>25 ft. long jump</td>
   <td>28</td>
@@ -119,6 +125,115 @@ If your character needs to jump they typically require at least a 10 foot runnin
  <tr>
   <td>No running start</td>
   <td>+15</td>
+</table>
+
+<h2 id="climbing">Climbing</h2>
+<p class=tab>
+While typically seen more as an athletic thing, for simplicity sake climbing has been added to acrobatics. Climbing can be initiated on any surface though some are nearly impossible to climb without gear or tools. Climb checks are also made at the end of a jump if they did not land with their feat to catch themselves. Creatures with climb speeds gain a +20 on all rolls for climbing since the act is second nature to them, but can fail in extreme circumstances. Review the table below for actions and their DCs, as well as conditional modifiers. Climbing is done at 5 ft per round typically. Hastily climbing makes the movement as much as 1/2 your base speed but take a -5 penalty.
+</p>
+
+<table style="text-align:center">
+<th style="text-align:center">Action attempted
+<th style="text-align:center">DC
+ <tr>
+  <td>Climb a ladder</td>
+  <td>5</td>
+ <tr>
+  <td>Climb a knotted rope</td>
+  <td>12</td>
+ <tr>
+  <td>Climb straight rope</td>
+  <td>20</td>
+ <tr>
+  <td>Climb a surface with good hand/foot holds</td>
+  <td>15</td>
+ <tr>
+  <td>Climb a surface with poor hand/foot holds</td>
+  <td>20</td>
+ <tr>
+  <td>Climb a surface with very few hand/foot holds</td>
+  <td>35</td>
+ <tr>
+  <td>Climb a surface with no hand/foot holds</td>
+  <td>50</td>
+ <tr>
+<th style="text-align:center">Stake a piton
+<th style="text-align:center">DC
+ <tr>
+  <td>Stake in wood</td>
+  <td>10</td>
+ <tr>
+  <td>Stake in soft stone</td>
+  <td>15</td>
+ <tr>
+  <td>Stake in medium stone</td>
+  <td>20</td>
+ <tr>
+  <td>Stake in hard stone</td>
+  <td>25</td>
+ <tr>
+<th style="text-align:center">Circumstance
+<th style="text-align:center">DC Modifier
+ <tr>
+  <td>Climb has set rope with secure pitons</td>
+  <td>-30</td>
+ <tr>
+  <td>Back-bracing wall available</td>
+  <td>-25</td>
+ <tr>
+  <td>Windy</td>
+  <td>+15</td>
+ <tr>
+  <td>Slippery</td>
+  <td>+20</td>
+ <tr>
+  <td>Under attack</td>
+  <td>+10</td>
+ <tr>
+  <td>Taken damage</td>
+  <td>+15</td>
+ <tr>
+  <td>Tremors</td>
+  <td>+30</td>
+</table>
+
+<h2 id="combat-acrobatics">Combat Acrobatics</h2>
+<p class=tab>
+Rolling through, jumping, dipping, dodging, etc.. This skill can be used in combat to move out of threaten squares or occupied squares with impunity. For every 10 skill points in the Acrobatics skill your character gains +1 dodge bonus to AC when <a href="../../combat%20rules/#combat-actions">fighting defensively</a>, and a +2 dodge bonus to ac during <a href="../../combat%20rules/#combat-actions">full defensive posture</a>. Combat acrobatics are done at half movement speed. It also allows for the mitigation of falling damage to a degree. Below is a table detailing the use of combat acrobatics. If a move DC is failed then creatures gain an attack of opportunity against your character as normal. If a DC that is made to move through an occupied square fails, you are stopped before you enter their square.
+</p>
+
+<p class=tab>
+A tumble check can be made to mitigate falling damage. For ever 10 points rolled above a 15 the fall damage is reduced by 1d6. Falling damage is calculated as 1d6 crushing damage for ever 5 feet past 10 feet of falling.
+</p>
+
+<table style="text-align:center">
+<th style="text-align:center">Action Attempted
+<th style="text-align:center">DC
+ <tr>
+  <td>Move through a single creature's threatened squares</td>
+  <td>12</td>
+ <tr>
+  <td>Move through a hostile creature's square</td>
+  <td>20</td>
+ <tr>
+<th style="text-align:center">Circumstance
+<th style="text-align:center">DC Modifier
+ <tr>
+  <td>Per additional creature threatening the same squares</td>
+  <td>+5</td>
+ <tr>
+  <td>Difficult terrain</td>
+  <td>+10</td>
+ <tr>
+  <td>Slippery floor</td>
+  <td>+15</td>
+ <tr>
+  <td>Per size category larger than medium</td>
+  <td>+10</td>
+ <tr>
+  <td>Per size category smaller than medium</td>
+  <td>-2</td>
+</table>
 
   <br>
     
