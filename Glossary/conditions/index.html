@@ -33,8 +33,10 @@
         
         var pageToc = [
           {title: "Conditions", url: "#_top", children: [
+              {title: "Exposed", url: "#exposed" },
               {title: "Flat-footed", url: "#flat-footed" },
               {title: "Sickened", url: "#sickened" },
+              {title: "Sleep", url: "#sleep" },
               {title: "Stifle", url: "#stifle" },
           ]},
         ];
@@ -59,10 +61,14 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
     <h1 id="conditions">Conditions</h1>
 <p class.tab>Conditions are very temporary afflictions that belong in a category of their own, as they all auto-recover within a relatively short amount of time. Below is a list of all condition summaries.</p>
 
+<h2 id="exposed">Exposed</h2>
+<p>An exposed creature is compltely helpless and can be instantly killed by another player if a full-round action is taken to do so. An exposed creature must make a DC 10 + Damage dealt Level Check (1d20+ HD + Con). If they fail they die instantly. Attacks against an exposed creature are considered critical threat.</p>
 <h2 id="flat-footed">Flat-footed</h2>
 <p>A flat-footed opponent is denied their dexterity, dodge, insight, and parry bonuses to AC. </p>
 <h2 id="sickened">Sickened</h2>
 <p>Sickened creatures take a -2 to all rolls, and have their movement speed reduced by 10 ft.   </p>
+<h2 id="sleep">Sleep</h2>
+<p>A sleeping creature is exposed, unable to move, and does not threaten any squares. Any noise of listen DC 15 or higher gives a sleeping person a chance to wake up if they succeed on the listen check. A creature does have a -5 listen penalty while sleeping.</p>
 <h2 id="stifle">Stifle</h2>
 <p>A stifled opponent is overwhelmed by emotion be it natural or magically induced. They cannot take any actions if left alone, but if any offensive actions are taken against them they can dodge, defend, or protect themselves. If a stifle is magically induced any offensive actions on them grants them another immediate will save. Any reactive skill such as balance, spot, listen, etc... gain a -4 circumstance penalty. A stifled opponent is not considered flat-footed. </p>
 
