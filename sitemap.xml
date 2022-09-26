@@ -16,7 +16,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://defined.eedq.org/NewRaces/</loc>
+         <loc>https://defined.eedq.org/Species%20Options/</loc>
          <lastmod>2022-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -901,27 +901,27 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://defined.eedq.org/Monster%20Details/Monsters%20CR%201%20-%205/</loc>
+         <lastmod>2022-09-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://defined.eedq.org/Monster%20Details/Monsters%20CR%2011%20-%2015/</loc>
+         <lastmod>2022-09-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://defined.eedq.org/Monster%20Details/Monsters%20CR%2016%20-%2020/</loc>
+         <lastmod>2022-09-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://defined.eedq.org/Monster%20Details/Monsters%20CR%206%20-%2010/</loc>
+         <lastmod>2022-09-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://defined.eedq.org/Monster%20Details/On%20Monster%20Creation/</loc>
-         <lastmod>2022-09-26</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://defined.eedq.org/Monster%20Details/CR%201%20-%205/Monsters/</loc>
-         <lastmod>2022-09-26</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://defined.eedq.org/Monster%20Details/CR%2011%20-%2015/Monsters/</loc>
-         <lastmod>2022-09-26</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://defined.eedq.org/Monster%20Details/CR%2016%20-%2020/Monsters/</loc>
-         <lastmod>2022-09-26</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://defined.eedq.org/Monster%20Details/CR%206%20-%2010/Monsters/</loc>
          <lastmod>2022-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
