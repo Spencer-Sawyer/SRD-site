@@ -32,7 +32,9 @@
       var is_top_frame = false;
         
         var pageToc = [
-          {title: "Damage Reduction", url: "#_top", children: [
+          {title: "Attribute Damage", url: "#_top", children: [
+          ]},
+          {title: "Damage Reduction", url: "#damage-reduction", children: [
           ]},
           {title: "Delusion", url: "#delusion", children: [
           ]},
@@ -83,7 +85,12 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 
     
 
-    <h2 id="damage-reduction">Damage Reduction</h2>
+    <h2 id="attribute-damage">Attribute Damage</h2>
+<p class=tab>
+ Attribute damage takes points off the score of an attribute. If someone takes 4 points of Strength Damage, and had an 18 in strength. Their strength will temporarily be 14, which changes the modifier. Attribute damage is healed every day by a number equal to the affected person's constitution modifier. The modifier is used as a pool to heal multiple types of attribute damage. So if someone has lost 2 points of Dexterity, and 2 Points of Charisma, they would need a constitution modifier of 4 to heal both. The player can choose which attributes are healed. If a character has a zero or negative constitution modifier, they can recover 1 attribute point.
+</p>
+
+<h2 id="damage-reduction">Damage Reduction</h2>
 <p class=tab>
 Damage reduction is the equivalent of energy resistance but for the physical damage types. These types include Slashing, Piercing, Bludgeoning, and Crushing. Damage reduction is applied to all attacks in a round. If your character gets hit 5 times, they apply the damage reduction once for each hit.</p>
 <p class=tab>Damage reduction is notated by the value reduced / what penetrates it. For example 15/silver will reduces 15 damage from every hit, unless it comes from a source made of silver. If the damage reduction is noted 5/- this will mitigate 5 damage from any physical source of damage.
@@ -104,18 +111,18 @@ Sometimes an area is difficult to traverse for one of many reasons. In these are
 Disposition is the opinion and willingness of a character to listen to another character. There are a lot of skills that are affected by disposition. If someone likes you they are easier to convince, fool, or work with in general. If the skill is being used on an NPC the DM will silently add or subtract modifiers based on the NPCs disposition. See the chart below for how the bonuses work. If you are working to improve disposition with a character this is best done through in game action or by the DM setting an DC and applying the current disposition modifier.
 </p>
 
-<table style="text-align:center">
- <th style="text-align:center" colspan=9> Roll Modifier by Target's Disposition
+<table>
+ <th colspan=9> Roll Modifier by Target's Disposition</th>
  <tr>
-  <th style="text-align:center"> Hostile
-  <th style="text-align:center"> Hateful
-  <th style="text-align:center"> Dislike
-  <th style="text-align:center"> Apprehensive
-  <th style="text-align:center"> Neutral
-  <th style="text-align:center"> Warmly
-  <th style="text-align:center"> Liked
-  <th style="text-align:center"> Respectful
-  <th style="text-align:center"> Adoring
+  <th>Hostile</th>
+  <th>Hateful</th>
+  <th>Dislike</th>
+  <th>Apprehensive</th>
+  <th>Neutral</th>
+  <th>Warmly</th>
+  <th>Liked</th>
+  <th>Respectful</th>
+  <th>Adoring</th>
  </tr>
  <tr>
   <td>-50</td>
